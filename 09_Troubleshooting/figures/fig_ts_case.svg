@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 800" width="1500" height="800" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1500" height="800" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Кейс: Attach не проходит — дерево разбора</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Найти первое расхождение: RRC → S1AP → S6a → S11 → E-RAB</text>
+<rect x="560" y="130" width="380" height="70" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="750" y="173" font-size="18" fill="#33475b" font-weight="700" text-anchor="middle">Attach fail</text>
+<rect x="100" y="280" width="400" height="100" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="300" y="322" font-size="16" fill="#1f4e79" font-weight="700" text-anchor="middle">RRC reject?</text>
+<text x="300" y="352" font-size="12.5" fill="#556677" font-weight="normal" text-anchor="middle">да → RAN: overload, barring</text>
+<rect x="560" y="280" width="400" height="100" rx="10" fill="#f0f7f5" stroke="#c8e0da" stroke-width="2"/>
+<text x="760" y="322" font-size="16" fill="#00796b" font-weight="700" text-anchor="middle">S1AP ICS fail?</text>
+<text x="760" y="352" font-size="12.5" fill="#556677" font-weight="normal" text-anchor="middle">cause: radio / transport / overload</text>
+<rect x="1020" y="280" width="400" height="100" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="1220" y="322" font-size="16" fill="#b26a00" font-weight="700" text-anchor="middle">S6a AIR error?</text>
+<text x="1220" y="352" font-size="12.5" fill="#556677" font-weight="normal" text-anchor="middle">Result-Code: подписка / маршрут</text>
+<rect x="380" y="500" width="400" height="100" rx="10" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="580" y="542" font-size="16" fill="#2e7d32" font-weight="700" text-anchor="middle">S11 Create Session?</text>
+<text x="580" y="572" font-size="12.5" fill="#556677" font-weight="normal" text-anchor="middle">Cause: ресурсы / APN / DNS</text>
+<rect x="840" y="500" width="400" height="100" rx="10" fill="#f6eefb" stroke="#dcc8ea" stroke-width="2"/>
+<text x="1040" y="542" font-size="16" fill="#6a1b9a" font-weight="700" text-anchor="middle">E-RAB Setup?</text>
+<text x="1040" y="572" font-size="12.5" fill="#556677" font-weight="normal" text-anchor="middle">admission / QoS-профиль</text>
+<path d="M 650 200 L 300 280" fill="none" stroke="#546e7a" stroke-width="2.2" stroke-dasharray="7 6" marker-end="url(#ma)" stroke-linecap="round"/>
+<path d="M 750 200 L 750 280" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<path d="M 850 200 L 1200 280" fill="none" stroke="#546e7a" stroke-width="2.2" stroke-dasharray="7 6" marker-end="url(#ma)" stroke-linecap="round"/>
+<path d="M 750 380 L 580 500" fill="none" stroke="#546e7a" stroke-width="2.2" stroke-dasharray="7 6" marker-end="url(#ma)" stroke-linecap="round"/>
+<path d="M 800 380 L 1020 500" fill="none" stroke="#546e7a" stroke-width="2.2" stroke-dasharray="7 6" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="750" y="700" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Найден первый отказ — работаем с ним: данные → гипотеза → изменение → проверка</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" width="1500" height="820" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1500" height="820" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Варианты развёртывания 3GPP</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">SA, NSA и промежуточные шаги: кто якорь и какое ядро</text>
+<text x="130" y="140" font-size="15" fill="#33475b" font-weight="700" text-anchor="start">Опция</text>
+<text x="430" y="140" font-size="15" fill="#33475b" font-weight="700" text-anchor="start">Якорь</text>
+<text x="630" y="140" font-size="15" fill="#33475b" font-weight="700" text-anchor="start">Ядро</text>
+<text x="830" y="140" font-size="15" fill="#33475b" font-weight="700" text-anchor="start">Комментарий</text>
+<rect x="110" y="160" width="1280" height="100" rx="10" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="130" y="220" font-size="17" fill="#2e7d32" font-weight="700" text-anchor="start">2 (SA)</text>
+<text x="430" y="220" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">NR</text>
+<text x="630" y="220" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">5GC</text>
+<text x="830" y="220" font-size="15" fill="#556677" font-weight="normal" text-anchor="start">Полный 5G: слайсинг, URLLC, VoNR</text>
+<rect x="110" y="276" width="1280" height="100" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="130" y="336" font-size="17" fill="#1f4e79" font-weight="700" text-anchor="start">3/3a/3x (NSA)</text>
+<text x="430" y="336" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">LTE</text>
+<text x="630" y="336" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">EPC</text>
+<text x="830" y="336" font-size="15" fill="#556677" font-weight="normal" text-anchor="start">Быстрый запуск на существующем EPC, VoLTE</text>
+<rect x="110" y="392" width="1280" height="100" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="130" y="452" font-size="17" fill="#b26a00" font-weight="700" text-anchor="start">7/7a/7x (NGEN-DC)</text>
+<text x="430" y="452" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">LTE</text>
+<text x="630" y="452" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">5GC</text>
+<text x="830" y="452" font-size="15" fill="#556677" font-weight="normal" text-anchor="start">LTE-якорь, но ядро уже 5GC</text>
+<rect x="110" y="508" width="1280" height="100" rx="10" fill="#f6eefb" stroke="#dcc8ea" stroke-width="2"/>
+<text x="130" y="568" font-size="17" fill="#6a1b9a" font-weight="700" text-anchor="start">4/4a (NE-DC)</text>
+<text x="430" y="568" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">NR</text>
+<text x="630" y="568" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">5GC</text>
+<text x="830" y="568" font-size="15" fill="#556677" font-weight="normal" text-anchor="start">NR-якорь, LTE как добавка</text>
+<rect x="110" y="624" width="1280" height="100" rx="10" fill="#f0f7f5" stroke="#c8e0da" stroke-width="2"/>
+<text x="130" y="684" font-size="17" fill="#00796b" font-weight="700" text-anchor="start">5 (eLTE)</text>
+<text x="430" y="684" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">LTE</text>
+<text x="630" y="684" font-size="16" fill="#1a2733" font-weight="normal" text-anchor="start">5GC</text>
+<text x="830" y="684" font-size="15" fill="#556677" font-weight="normal" text-anchor="start">LTE подключён к 5GC (без NR)</text>
+<text x="750" y="800" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">На практике: сначала NSA (3x), затем SA (2); DSS — способ делить спектр на переходе</text>
+</svg>

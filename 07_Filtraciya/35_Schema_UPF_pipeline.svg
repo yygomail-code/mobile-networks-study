@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1500" width="2800" height="1500" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2800" height="1500" fill="#ffffff"/>
+<text x="1400.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">Фильтрация в UPF: конвейер правил</text>
+<text x="1400.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">PDR находит пакет, FAR/QER/URR определяют действие, QoS и учёт; справа — аналогия с 4G.</text>
+<rect x="60" y="130" width="2680" height="900" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1400" y="195" font-size="20" fill="#2e7d32" font-weight="700" text-anchor="middle">Конвейер UPF (5G): PDR → FAR / QER / URR</text>
+<text x="2350" y="470" font-size="15" fill="#556677" font-weight="700" text-anchor="middle">PCC → SDF</text>
+<text x="2350" y="510" font-size="15" fill="#556677" font-weight="700" text-anchor="middle">enforcement в PGW</text>
+<text x="2350" y="550" font-size="15" fill="#556677" font-weight="700" text-anchor="middle">TDF (Sd) — DPI</text>
+<text x="2350" y="590" font-size="15" fill="#556677" font-weight="700" text-anchor="middle">учёт: Rating-Group (Gy)</text>
+<text x="2350" y="630" font-size="15" fill="#556677" font-weight="700" text-anchor="middle">ACL/NAT на SGi</text>
+<rect x="60" y="1080" width="2680" height="380" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="1135" font-size="18" fill="#33475b" font-weight="700" text-anchor="start">Что важно</text>
+<text x="100" y="1185" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• PDR определяет пакет (precedence важен: порядок правил), FAR/QER/URR — что с ним делать</text>
+<text x="100" y="1225" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• QER: gate (открыт/закрыт), MBR/GBR, QFI; URR: объёмы, события, лимиты для тарификации</text>
+<text x="100" y="1265" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Ошибки: правило не совпало (класс трафика не тот), precedence перекрыл, gate закрыт, счётчик не тот</text>
+<text x="100" y="1305" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Диагностика: PFCP-сессии (N4), счётчики PDR/FAR/QER/URR, тест-трафик, сверка UL/DL</text>
+<path d="M 290 420 L 440 420" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 680 400 L 950 300" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 680 420 L 950 470" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 680 440 L 950 680" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1070 300 L 1500 400" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1070 470 L 1500 440" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1070 680 L 1500 460" fill="none" stroke="#00796b" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<rect x="110.0" y="385.0" width="180" height="70" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="200" y="414" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">Пакет</text>
+<text x="200" y="436" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">N3 / N6</text>
+<rect x="440.0" y="380.0" width="240" height="80" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="560" y="414" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PDR</text>
+<text x="560" y="436" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">обнаружение (PDI)</text>
+<rect x="830.0" y="220.0" width="240" height="80" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="950" y="254" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">FAR</text>
+<text x="950" y="276" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">forward / drop / buffer</text>
+<rect x="830.0" y="430.0" width="240" height="80" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="950" y="464" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">QER</text>
+<text x="950" y="486" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">MBR/GBR, gate, QFI</text>
+<rect x="830.0" y="640.0" width="240" height="80" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="950" y="674" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">URR</text>
+<text x="950" y="696" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">объёмы, лимиты, отчёт</text>
+<rect x="1380.0" y="380.0" width="240" height="80" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1500" y="414" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">N6 / N9</text>
+<text x="1500" y="436" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">выход</text>
+<rect x="1740.0" y="210.0" width="620" height="420" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2050" y="414" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">4G-аналог</text>
+<text x="2050" y="436" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">PCC-правила (Gx) → SDF + enforcement в PGW</text>
+<text x="798.9570296931774" y="373.00398017157926" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">совпадение</text>
+<text x="1246.9757840854354" y="357.58412843262715" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">forward</text>
+<text x="1257.8876128690238" y="601.8439706076374" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">отчёт SMF</text>
+</svg>

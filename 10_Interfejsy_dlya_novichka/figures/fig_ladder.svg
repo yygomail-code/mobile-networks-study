@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 770" width="1400" height="770" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b71c1c"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs>
+<rect x="0" y="0" width="1400" height="770" fill="#ffffff"/>
+<text x="700.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Лестница диагностики: от симптома к причине</text>
+<text x="700.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Принцип первого отказа: идём по цепочке, пока не найдём первое сообщение с ошибкой</text>
+<rect x="280" y="120" width="900" height="90" rx="12" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="310" y="156" font-size="17" fill="#1f4e79" font-weight="700" text-anchor="start">1. Радио (Uu)</text>
+<text x="310" y="182" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">RRC Reject, RLF, измерения, уровень сигнала</text>
+<path d="M 730 214 L 730 228" fill="none" stroke="#33475b" stroke-width="2" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="280" y="234" width="900" height="90" rx="12" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="310" y="270" font-size="17" fill="#2e7d32" font-weight="700" text-anchor="start">2. Транспорт (S1/X2, GTP)</text>
+<text x="310" y="296" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">SCTP-ассоциации, TEID, потери, MTU</text>
+<path d="M 730 328 L 730 342" fill="none" stroke="#33475b" stroke-width="2" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="280" y="348" width="900" height="90" rx="12" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="310" y="384" font-size="17" fill="#b26a00" font-weight="700" text-anchor="start">3. Ядро (S11, S6a, S5/S8, Diameter)</text>
+<text x="310" y="410" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">cause, Result-Code, сессии, подписка</text>
+<path d="M 730 442 L 730 456" fill="none" stroke="#33475b" stroke-width="2" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="280" y="462" width="900" height="90" rx="12" fill="#f6eefb" stroke="#d9c3e8" stroke-width="2"/>
+<text x="310" y="498" font-size="17" fill="#6a1b9a" font-weight="700" text-anchor="start">4. Сервис (IMS, интернет)</text>
+<text x="310" y="524" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">SIP-ответы, DNS, NAT, bearer'ы</text>
+<path d="M 730 556 L 730 570" fill="none" stroke="#33475b" stroke-width="2" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="280" y="576" width="900" height="90" rx="12" fill="#fdeeee" stroke="#e8c3c3" stroke-width="2"/>
+<text x="310" y="612" font-size="17" fill="#b71c1c" font-weight="700" text-anchor="start">5. Внешние сети</text>
+<text x="310" y="638" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">firewall, маршруты, партнёрские стыки</text>
+<text x="170" y="380" font-size="15" fill="#33475b" font-weight="700" text-anchor="middle" transform="rotate(-90 170 380)">от симптома к причине</text>
+<text x="700" y="725" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">Начинаем с симптома и по очереди подтверждаем или исключаем слои: радио → транспорт → ядро → сервис.</text>
+</svg>

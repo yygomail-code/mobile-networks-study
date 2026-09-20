@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1750" width="2800" height="1750" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="2800" height="1750" fill="#ffffff"/>
+<text x="1400" y="46" font-size="30" font-weight="700" fill="#16212b" text-anchor="middle">Карта вопросов: Траблшутинг · Оптимизация · Радиоизмерения</text>
+<text x="1400" y="80" font-size="15" fill="#556677" text-anchor="middle">Что спросят, что держать под рукой и чем доказывать</text>
+<rect x="60" y="130" width="880" height="1080" rx="14" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="500.0" y="200" font-size="24" font-weight="700" fill="#1f4e79" text-anchor="middle">Траблшутинг</text>
+<text x="100" y="265" font-size="17" fill="#33475b" text-anchor="start">• Локализация: методика, «первое расхождение»</text>
+<text x="100" y="357" font-size="17" fill="#33475b" text-anchor="start">• Cause S1AP/NGAP: radio / transport / overload</text>
+<text x="100" y="449" font-size="17" fill="#33475b" text-anchor="start">• Диагностика по интерфейсам: S1, S11, S6a, Gx, GTP-U</text>
+<text x="100" y="541" font-size="17" fill="#33475b" text-anchor="start">• Коды: Diameter, SIP, RRC reject</text>
+<text x="100" y="633" font-size="17" fill="#33475b" text-anchor="start">• GTP-U: TEID, потери, MTU, DSCP</text>
+<text x="100" y="725" font-size="17" fill="#33475b" text-anchor="start">• Инциденты: массовые vs единичные, эскалация</text>
+<text x="100" y="817" font-size="17" fill="#33475b" text-anchor="start">• Wireshark-фильтры и трейсы по IMSI/GUTI</text>
+<text x="100" y="909" font-size="17" fill="#33475b" text-anchor="start">• Отчёт разбора: симптом → root cause → guard</text>
+<rect x="940" y="130" width="880" height="1080" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1380.0" y="200" font-size="24" font-weight="700" fill="#2e7d32" text-anchor="middle">Оптимизация</text>
+<text x="980" y="265" font-size="17" fill="#33475b" text-anchor="start">• KPI-формулы (успех/попытки), TS 32.450/28.552</text>
+<text x="980" y="357" font-size="17" fill="#33475b" text-anchor="start">• Baseline, один фактор, guard-KPI, откат</text>
+<text x="980" y="449" font-size="17" fill="#33475b" text-anchor="start">• HO SR: S10/N26, пулы, веса, соседи, MRO</text>
+<text x="980" y="541" font-size="17" fill="#33475b" text-anchor="start">• RFSP/SPID: слои, 5G↔LTE steering</text>
+<text x="980" y="633" font-size="17" fill="#33475b" text-anchor="start">• QoS-рычаги: ARP/GBR/AMBR, VoLTE MOS</text>
+<text x="980" y="725" font-size="17" fill="#33475b" text-anchor="start">• Paging: TA list, DRX/eDRX, T3412</text>
+<text x="980" y="817" font-size="17" fill="#33475b" text-anchor="start">• Конфликт с SON: заморозка, координация</text>
+<text x="980" y="909" font-size="17" fill="#33475b" text-anchor="start">• Примеры: до/после с цифрами</text>
+<rect x="1820" y="130" width="920" height="1080" rx="14" fill="#fce4ec" stroke="#f0c4d4" stroke-width="2"/>
+<text x="2280.0" y="200" font-size="24" font-weight="700" fill="#ad1457" text-anchor="middle">Радиоизмерения</text>
+<text x="1860" y="265" font-size="17" fill="#33475b" text-anchor="start">• Методы: драйв-тесты, MDT, Trace, краудсорсинг</text>
+<text x="1860" y="357" font-size="17" fill="#33475b" text-anchor="start">• Радио-метрики: RSRP/RSRQ/SINR/CQI/BLER</text>
+<text x="1860" y="449" font-size="17" fill="#33475b" text-anchor="start">• Throughput и latency: методика, сверка с PM</text>
+<text x="1860" y="541" font-size="17" fill="#33475b" text-anchor="start">• MOS: POLQA/PESQ, RTP-анализ, E-model</text>
+<text x="1860" y="633" font-size="17" fill="#33475b" text-anchor="start">• 5G/DSS: SSB, beams, влияние дележа спектра</text>
+<text x="1860" y="725" font-size="17" fill="#33475b" text-anchor="start">• Валидация: контрольная группа, статистика</text>
+<text x="1860" y="817" font-size="17" fill="#33475b" text-anchor="start">• Геолокация: точность и кластеры</text>
+<text x="1860" y="909" font-size="17" fill="#33475b" text-anchor="start">• Обмен данными с Core/RAN: форматы и регламент</text>
+<rect x="60" y="1260" width="2680" height="420" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="1315" font-size="19" font-weight="700" fill="#33475b" text-anchor="start">Сквозные правила (для всех отделов)</text>
+<text x="100" y="1365" font-size="16" fill="#556677" text-anchor="start">• Ответ = контекст → данные → гипотеза → действие → проверка (целевой + guard) → риск/откат → вывод</text>
+<text x="100" y="1421" font-size="16" fill="#556677" text-anchor="start">• Спор «чьё» решают данные: cause-разбивка, сверка счётчиков Core/RAN, совместный тест — не мнения</text>
+<text x="100" y="1477" font-size="16" fill="#556677" text-anchor="start">• Если не знаешь — честный план поиска с сроком; выдуманный ответ дороже признания</text>
+<text x="100" y="1533" font-size="16" fill="#556677" text-anchor="start">• Guard-KPI фиксируются до изменения; откат — за один шаг; окно наблюдения 24–72 часа</text>
+<text x="100" y="1589" font-size="16" fill="#556677" text-anchor="start">• Кросс-доменный пример: VoLTE MOS = измерения (RTP) + оптимизация (QoS) + траблшутинг (транспорт)</text>
+</svg>

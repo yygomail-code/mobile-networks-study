@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" width="1400" height="820" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b71c1c"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs>
+<rect x="0" y="0" width="1400" height="820" fill="#ffffff"/>
+<text x="700.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Сообщение Diameter: заголовок и AVP</text>
+<text x="700.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Заголовок фиксирован (20 байт); далее — произвольное число AVP, выровненных по 4 байта</text>
+<rect x="220" y="130" width="140" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="290.0" y="159.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Версия</text><text x="290.0" y="181.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">(8 бит)</text>
+<rect x="360" y="130" width="340" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="530.0" y="159.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Длина сообщения</text><text x="530.0" y="181.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">(24 бита)</text>
+<rect x="700" y="130" width="140" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="770.0" y="159.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Флаги</text><text x="770.0" y="181.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">R P E T</text>
+<rect x="840" y="130" width="340" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="1010.0" y="159.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Код команды</text><text x="1010.0" y="181.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">(24 бита)</text>
+<rect x="220" y="200" width="480" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="460.0" y="240.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Application-Id (32 бита)</text>
+<rect x="700" y="200" width="240" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="820.0" y="240.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Hop-by-Hop Id (32)</text>
+<rect x="940" y="200" width="240" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="1060.0" y="240.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">End-to-End Id (32)</text>
+<rect x="220" y="270" width="960" height="70" rx="8" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/><text x="700.0" y="310.0" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">AVP ... AVP ... AVP ...</text>
+<text x="220" y="395" font-size="16" fill="#16212b" font-weight="700" text-anchor="start">Структура одного AVP:</text>
+<rect x="220" y="425" width="320" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="380.0" y="465.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">AVP Code (32)</text>
+<rect x="540" y="425" width="320" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="700.0" y="454.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Флаги V M P</text><text x="700.0" y="476.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">+ Длина (24)</text>
+<rect x="860" y="425" width="320" height="70" rx="8" fill="#ffffff" stroke="#33475b" stroke-width="2"/><text x="1020.0" y="454.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">Vendor-Id (32)</text><text x="1020.0" y="476.0" font-size="13" fill="#16212b" font-weight="700" text-anchor="middle">если V=1</text>
+<rect x="220" y="495" width="960" height="70" rx="8" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/><text x="700.0" y="535.0" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Данные AVP (выровнены до 4 байт)</text>
+<text x="220" y="620" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">R — Request (запрос); P — Proxiable; E — Error; T — возможная повторная передача</text>
+<text x="220" y="650" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">V — вендорный AVP (Vendor-Id 10415 = 3GPP); M — обязательный; P — защищённый</text>
+<text x="220" y="680" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">Примеры AVP: Session-Id (263), Result-Code (268), Subscription-Id (443), Multiple-Services-Credit-Control (456)</text>
+</svg>

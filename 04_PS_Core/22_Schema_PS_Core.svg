@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2700 1500" width="2700" height="1500" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2700" height="1500" fill="#ffffff"/>
+<text x="1350.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">PS Core: эволюция 2G/3G → EPC → 5GC</text>
+<text x="1350.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Узлы и интерфейсы трёх поколений ядра пакетной коммутации; внизу — что менялось.</text>
+<rect x="40" y="150" width="840" height="870" rx="14" fill="#f2f7fd" stroke="#c3d4e8" stroke-width="2"/>
+<text x="460" y="200" font-size="20" fill="#1f4e79" font-weight="700" text-anchor="middle">2G/3G: GPRS/UMTS</text>
+<rect x="900" y="150" width="840" height="870" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1320" y="200" font-size="20" fill="#2e7d32" font-weight="700" text-anchor="middle">4G: EPC</text>
+<rect x="1760" y="150" width="900" height="870" rx="14" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="2210" y="200" font-size="20" fill="#b26a00" font-weight="700" text-anchor="middle">5G: 5GC (SBA)</text>
+<rect x="40" y="1100" width="2620" height="340" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="80" y="1155" font-size="18" fill="#33475b" font-weight="700" text-anchor="start">Эволюция PS Core: что менялось</text>
+<text x="80" y="1210" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Сессии: PDP-контекст → EPS bearer → PDU-сессия с QoS flows</text>
+<text x="80" y="1255" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Узлы: SGSN/GGSN → MME/SGW/PGW → AMF/SMF/UPF; подписка: HLR → HSS → UDM</text>
+<text x="80" y="1300" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Управление: GTP-C → GTPv2-C → PFCP (N4); данные всегда в туннелях GTP-U</text>
+<text x="80" y="1345" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Разделение C/U: опция в EPC (CUPS) → основа 5GC; архитектура: монолит → SBA/CNF</text>
+<text x="80" y="1390" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Общее: Diameter (S6a/Gx/Gy), DNS-выбор узлов, роуминг через GRX/IPX, pool&#x27;ы и S1-Flex</text>
+<path d="M 150 440 L 370 440" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 370 440 L 620 440" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 620 466 L 620 674" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 620 440 L 150 700" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 620 440 L 370 700" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 620 726 L 620 904" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 990 440 L 1210 440" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1210 440 L 1450 440" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1210 466 L 1210 674" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1450 440 L 990 700" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1450 440 L 1210 700" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1210 700 L 1450 700" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1450 440 L 1650 440" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1450 700 L 1650 700" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1850 440 L 2060 440" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 2060 440 L 2280 440" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 2060 466 L 2060 674" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 2280 466 L 2280 674" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 2060 700 L 2280 700" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 2280 440 L 2480 440" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 2280 700 L 2480 700" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 2060 700 L 1850 700" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<rect x="90.0" y="414.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="150" y="445" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MS / UE</text>
+<rect x="305.0" y="414.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="370" y="436" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">BSS / RNC</text>
+<text x="370" y="456" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">радио</text>
+<rect x="555.0" y="414.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="620" y="436" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">SGSN</text>
+<text x="620" y="456" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">мобильность, сессии</text>
+<rect x="90.0" y="674.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="150" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">HLR</text>
+<text x="150" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">подписка</text>
+<rect x="310.0" y="674.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="370" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">DNS</text>
+<text x="370" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">выбор GGSN</text>
+<rect x="555.0" y="674.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="620" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">GGSN</text>
+<text x="620" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">шлюз IP</text>
+<rect x="555.0" y="904.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="620" y="926" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">IP-сети</text>
+<text x="620" y="946" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">интернет</text>
+<rect x="930.0" y="414.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="990" y="445" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="1145.0" y="414.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1210" y="436" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">eNB</text>
+<text x="1210" y="456" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">радио</text>
+<rect x="1385.0" y="414.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1450" y="436" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<text x="1450" y="456" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">управление</text>
+<rect x="930.0" y="674.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="990" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">HSS</text>
+<text x="990" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">подписка</text>
+<rect x="1145.0" y="674.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1210" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">SGW</text>
+<text x="1210" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">транспорт</text>
+<rect x="1385.0" y="674.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1450" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">PGW</text>
+<text x="1450" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">якорь IP</text>
+<rect x="1590.0" y="414.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1650" y="445" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF</text>
+<rect x="1590.0" y="674.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1650" y="705" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PDN / IP</text>
+<rect x="1790.0" y="414.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1850" y="445" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="1995.0" y="414.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2060" y="436" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">gNB</text>
+<text x="2060" y="456" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">радио</text>
+<rect x="2215.0" y="414.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2280" y="436" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">AMF</text>
+<text x="2280" y="456" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">доступ</text>
+<rect x="2420.0" y="414.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2480" y="445" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UDM</text>
+<rect x="1790.0" y="674.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1850" y="705" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">DN / IP</text>
+<rect x="1995.0" y="674.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2060" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">UPF</text>
+<text x="2060" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">данные</text>
+<rect x="2215.0" y="674.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2280" y="696" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">SMF</text>
+<text x="2280" y="716" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">сессии</text>
+<rect x="2420.0" y="674.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2480" y="705" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCF</text>
+<text x="242.39999999999998" y="456.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Um / Uu</text>
+<text x="475.0" y="456.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gb / Iu-PS</text>
+<text x="604.0" y="553.36" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gn / Gp</text>
+<text x="414.85501783732377" y="535.199455321316" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gr</text>
+<text x="503.4666709615703" y="538.1102605399715" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">DNS</text>
+<text x="604.0" y="800.76" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gi</text>
+<text x="1082.4" y="456.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu</text>
+<text x="1310.8" y="456.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-MME</text>
+<text x="1194.0" y="553.36" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-U</text>
+<text x="1248.9270838933135" y="535.2709945804779" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6a</text>
+<text x="1337.4431448859602" y="538.3475183562709" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S11</text>
+<text x="1310.8" y="716.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S5/S8</text>
+<text x="1534.0" y="456.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx</text>
+<text x="1534.0" y="716.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGi</text>
+<text x="1938.2" y="456.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu</text>
+<text x="2152.4" y="456.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N2</text>
+<text x="2044.0" y="553.36" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N3</text>
+<text x="2264.0" y="553.36" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N11</text>
+<text x="2152.4" y="670.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N4 (PFCP)</text>
+<text x="2364.0" y="456.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N8</text>
+<text x="2364.0" y="716.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N7</text>
+<text x="1971.8" y="684.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N6</text>
+</svg>

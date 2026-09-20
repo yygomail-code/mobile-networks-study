@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" width="1500" height="820" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1500" height="820" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">EPS Fallback: голос из 5G в LTE</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Если VoNR недоступен, вызов переводится в LTE до установления соединения</text>
+<rect x="80" y="110" width="140" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="150" y="141" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">UE (NR)</text>
+<path d="M 150 158 L 150 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="380" y="110" width="140" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="450" y="141" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">gNB</text>
+<path d="M 450 158 L 450 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="710" y="110" width="140" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="780" y="141" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">AMF/SMF</text>
+<path d="M 780 158 L 780 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="1010" y="110" width="140" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1080" y="141" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">MME/eNB</text>
+<path d="M 1080 158 L 1080 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="1300" y="110" width="140" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1370" y="141" font-size="14" fill="#16212b" font-weight="700" text-anchor="middle">IMS</text>
+<path d="M 1370 158 L 1370 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M 150 210 L 1370 210" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<text x="760" y="198" font-size="13" fill="#1f4e79" font-weight="700" text-anchor="middle">SIP INVITE (через 5GC)</text>
+<path d="M 1370 280 L 780 280" fill="none" stroke="#e65100" stroke-width="2.4" marker-end="url(#mo)" stroke-linecap="round"/>
+<text x="1075" y="268" font-size="13" fill="#e65100" font-weight="700" text-anchor="middle">запрос голосового носителя</text>
+<path d="M 780 350 L 450 350" fill="none" stroke="#e65100" stroke-width="2.4" marker-end="url(#mo)" stroke-linecap="round"/>
+<text x="615" y="338" font-size="13" fill="#e65100" font-weight="700" text-anchor="middle">EPS Fallback: перевод в LTE</text>
+<path d="M 450 420 L 1080 420" fill="none" stroke="#00796b" stroke-width="2.4" marker-end="url(#mt)" stroke-linecap="round"/>
+<text x="765" y="408" font-size="13" fill="#00796b" font-weight="700" text-anchor="middle">handover / redirect → MME (N26)</text>
+<path d="M 1080 490 L 150 490" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<text x="615" y="478" font-size="13" fill="#2e7d32" font-weight="700" text-anchor="middle">вызов как VoLTE по LTE</text>
+<text x="750" y="640" font-size="13.5" fill="#556677" font-weight="normal" text-anchor="middle">После завершения вызова UE может вернуться в NR (по покрытию и политике)</text>
+<text x="750" y="680" font-size="13.5" fill="#2e7d32" font-weight="700" text-anchor="middle">VoNR (когда доступен) — голос как QoS flow 5QI 1 прямо в NR</text>
+</svg>

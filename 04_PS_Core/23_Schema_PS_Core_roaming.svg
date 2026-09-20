@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1500" width="2600" height="1500" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2600" height="1500" fill="#ffffff"/>
+<text x="1300.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">Роуминг в PS Core: home-routed и local breakout</text>
+<text x="1300.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Два сценария доставки данных в гостевой сети; сигнализация S6a — всегда в домашнюю сеть.</text>
+<rect x="60" y="220" width="2480" height="480" rx="14" fill="#f2f7fd" stroke="#c3d4e8" stroke-width="2"/>
+<text x="1300" y="270" font-size="20" fill="#1f4e79" font-weight="700" text-anchor="middle">Home-routed: PGW/UPF в домашней сети (HPLMN)</text>
+<text x="710" y="300" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle">S9: политики</text>
+<rect x="60" y="740" width="2480" height="480" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1300" y="790" font-size="20" fill="#2e7d32" font-weight="700" text-anchor="middle">Local breakout: PGW/UPF в гостевой сети (VPLMN)</text>
+<text x="1500" y="1080" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">S6a всегда идёт в домашний HSS; PGW выбирается по APN-OI-Replacement</text>
+<rect x="60" y="1240" width="2480" height="200" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="1290" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">Что важно в роуминге PS Core</text>
+<text x="100" y="1335" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Home-routed: данные через домашний PGW/UPF — домашние политики и тарификация; путь длиннее</text>
+<text x="100" y="1375" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Local breakout: PGW/UPF в гостевой сети — короткий путь; политики и тарифы — по договору операторов</text>
+<text x="100" y="1415" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Сигнализация: S6a — всегда в HPLMN (через DRA/IPX); защита стыков — DEA, GTP firewall, SEPP (5G)</text>
+<path d="M 170 560 L 410 560" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 410 560 L 660 560" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 660 560 L 950 560" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 950 560 L 1250 560" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1250 560 L 1520 560" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 410 560 L 410 380" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 410 380 L 950 380" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1250 560 L 1250 380" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 170 354 L 170 310 L 1250 310 L 1250 354" fill="none" stroke="#e65100" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 170 1080 L 410 1080" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 410 1080 L 660 1080" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 660 1080 L 1000 1080" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1000 1080 L 1300 1080" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 410 1080 L 410 900" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 410 900 L 950 900" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1000 1080 L 1300 900" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<rect x="110.0" y="534.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="170" y="565" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="345.0" y="534.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="410" y="565" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">eNB / gNB</text>
+<rect x="595.0" y="534.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="660" y="565" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SGW (V)</text>
+<rect x="875.0" y="534.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="950" y="565" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">GRX / IPX</text>
+<rect x="1180.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1250" y="565" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PGW / UPF (H)</text>
+<rect x="1455.0" y="534.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1520" y="565" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">IP-сети</text>
+<rect x="105.0" y="354.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="170" y="385" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF/PCF (V)</text>
+<rect x="340.0" y="354.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="410" y="385" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MME / AMF (V)</text>
+<rect x="880.0" y="354.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="950" y="385" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">HSS / UDM (H)</text>
+<rect x="1180.0" y="354.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1250" y="385" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF / PCF (H)</text>
+<rect x="110.0" y="1054.0" width="120" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="170" y="1085" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="345.0" y="1054.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="410" y="1085" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">eNB / gNB</text>
+<rect x="595.0" y="1054.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="660" y="1085" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SGW (V)</text>
+<rect x="930.0" y="1054.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1000" y="1085" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PGW / UPF (V)</text>
+<rect x="1235.0" y="1054.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1300" y="1085" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">IP-сети (V)</text>
+<rect x="340.0" y="874.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="410" y="905" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MME / AMF (V)</text>
+<rect x="880.0" y="874.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="950" y="905" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">HSS / UDM (H)</text>
+<rect x="1235.0" y="874.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1300" y="905" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF/PCF (V)</text>
+<text x="270.8" y="576.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu</text>
+<text x="515.0" y="576.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-U</text>
+<text x="781.8" y="576.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S8 (GTP)</text>
+<text x="1076.0" y="576.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S8</text>
+<text x="1363.4" y="576.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGi</text>
+<text x="426.0" y="484.4" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-MME</text>
+<text x="636.8" y="396.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6a (DRA)</text>
+<text x="1266.0" y="484.4" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx</text>
+<text x="270.8" y="1096.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu</text>
+<text x="515.0" y="1096.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-U</text>
+<text x="802.8" y="1096.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S5/S8 (V)</text>
+<text x="1126.0" y="1096.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGi</text>
+<text x="426.0" y="1004.4" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-MME</text>
+<text x="636.8" y="916.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6a (DRA)</text>
+<text x="1134.2319320868405" y="1018.1198868114006" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx</text>
+</svg>

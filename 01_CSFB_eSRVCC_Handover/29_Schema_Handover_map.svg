@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1500" width="2600" height="1500" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2600" height="1500" fill="#ffffff"/>
+<text x="1300.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">Handover: полная карта переходов</text>
+<text x="1300.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Прямые (X2/Xn) и через ядро (S1/N2), межсистемные (N26, S3/S4) и голосовые (SGs/Sv).</text>
+<rect x="40" y="150" width="2520" height="900" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1300" y="210" font-size="20" fill="#33475b" font-weight="700" text-anchor="middle">Карта Handover: LTE, 5G и межсистемные переходы</text>
+<rect x="40" y="1120" width="2520" height="330" rx="14" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="80" y="1180" font-size="18" fill="#1f4e79" font-weight="700" text-anchor="start">Виды и интерфейсы</text>
+<text x="80" y="1235" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Intra-LTE: X2 HO (прямой) и S1 HO (через MME); завершение — Path Switch к SGW</text>
+<text x="80" y="1280" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Intra-5G: Xn HO и N2 HO (через AMF); LTE↔5G — N26 (MME↔AMF), EPS fallback для голоса</text>
+<text x="80" y="1325" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• LTE↔2G/3G: PS HO через S3/S4; голос — CSFB (SGs) и SRVCC (Sv)</text>
+<text x="80" y="1375" font-size="14" fill="#b71c1c" font-weight="700" text-anchor="start">KPI: HO SR по типам • failure rate (too early / too late / wrong cell) • interruption time • ping-pong</text>
+<path d="M 160 500 L 450 500" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 160 552 L 1100 552" fill="none" stroke="#1f4e79" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 450 500 L 750 500" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1100 500 L 1400 500" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 450 500 L 600 280" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 750 474 L 600 306" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1100 500 L 1250 280" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1400 474 L 1250 306" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 600 280 L 1250 280" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 450 552 L 450 780" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 750 552 L 850 780" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<rect x="95.0" y="474.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="160" y="505" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="375.0" y="474.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="450" y="505" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">eNB (LTE)</text>
+<rect x="675.0" y="474.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="750" y="505" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">eNB (LTE)</text>
+<rect x="1025.0" y="474.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1100" y="505" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">gNB (5G)</text>
+<rect x="1325.0" y="474.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="505" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">gNB (5G)</text>
+<rect x="530.0" y="254.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="600" y="285" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<rect x="1180.0" y="254.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1250" y="285" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">AMF</text>
+<rect x="375.0" y="754.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="450" y="785" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MSC (CS)</text>
+<rect x="775.0" y="754.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="850" y="785" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">SGSN (2G/3G)</text>
+<text x="281.8" y="516.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu LTE</text>
+<text x="554.8" y="568.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu NR</text>
+<text x="576.0" y="516.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">X2 HO</text>
+<text x="1226.0" y="516.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Xn HO</text>
+<text x="526.2196374849208" y="416.6133891942642" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1 HO</text>
+<text x="1176.2196374849207" y="416.6133891942642" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N2 HO</text>
+<text x="873.0" y="296.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N26: interworking / EPS fallback</text>
+<text x="434.0" y="647.76" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGs / Sv: CSFB, SRVCC</text>
+<text x="777.3473886592968" y="654.186583921361" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S3 / S4: PS HO</text>
+</svg>

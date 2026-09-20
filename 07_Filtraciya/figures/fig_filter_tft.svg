@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" width="1500" height="760" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1500" height="760" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Правила и приоритеты: как трафик попадает в канал</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Precedence важен: первое совпавшее правило выигрывает</text>
+<rect x="100" y="300" width="200" height="100" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="200" y="340" font-size="16" fill="#1f4e79" font-weight="700" text-anchor="middle">Трафик UE</text>
+<text x="200" y="370" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">RTP, SIP, web</text>
+<rect x="400" y="190" width="460" height="90" rx="10" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="630" y="242" font-size="15" fill="#2e7d32" font-weight="700" text-anchor="middle">Правило 1: RTP → bearer QCI 1</text>
+<rect x="400" y="320" width="460" height="90" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="630" y="372" font-size="15" fill="#1f4e79" font-weight="700" text-anchor="middle">Правило 2: SIP → QCI 5</text>
+<rect x="400" y="450" width="460" height="90" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="630" y="502" font-size="15" fill="#33475b" font-weight="700" text-anchor="middle">Правило 3: any → default (QCI 9)</text>
+<path d="M 300 330 L 400 240" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<path d="M 300 350 L 400 360" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<path d="M 300 380 L 400 480" fill="none" stroke="#33475b" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="950" y="240" width="420" height="300" rx="10" fill="#ffffff" stroke="#e0e6ee" stroke-width="1.5"/>
+<text x="1160" y="290" font-size="15" fill="#33475b" font-weight="700" text-anchor="middle">Каналы (bearer'ы)</text>
+<text x="1160" y="330" font-size="13" fill="#2e7d32" font-weight="normal" text-anchor="middle">QCI 1 — голос (GBR)</text>
+<text x="1160" y="365" font-size="13" fill="#1f4e79" font-weight="normal" text-anchor="middle">QCI 5 — сигнализация</text>
+<text x="1160" y="400" font-size="13" fill="#33475b" font-weight="normal" text-anchor="middle">QCI 9 — default</text>
+<text x="1160" y="435" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">precedence решает</text>
+<path d="M 860 235 L 950 300" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<path d="M 860 365 L 950 365" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<path d="M 860 495 L 950 430" fill="none" stroke="#33475b" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="750" y="660" font-size="14" fill="#b71c1c" font-weight="700" text-anchor="middle">Ошибка фильтра → трафик уйдёт в default (скорость/приоритет не те)</text>
+</svg>

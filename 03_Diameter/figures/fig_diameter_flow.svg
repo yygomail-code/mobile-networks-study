@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 790" width="1400" height="790" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b71c1c"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs>
+<rect x="0" y="0" width="1400" height="790" fill="#ffffff"/>
+<text x="700.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Пример: Attach в LTE — обмен S6a через DRA</text>
+<text x="700.0" y="78" font-size="14" fill="#556677" text-anchor="middle">AIR/AIA — аутентификация; ULR/ULA — регистрация и подписка</text>
+<rect x="85.0" y="105.0" width="130" height="50" rx="10" fill="#f7f9fc" stroke="#33475b" stroke-width="2"/><text x="150" y="135" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<path d="M 150 155 L 150 720" fill="none" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+<rect x="415.0" y="105.0" width="130" height="50" rx="10" fill="#f7f9fc" stroke="#33475b" stroke-width="2"/><text x="480" y="135" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<path d="M 480 155 L 480 720" fill="none" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+<rect x="735.0" y="105.0" width="130" height="50" rx="10" fill="#f7f9fc" stroke="#33475b" stroke-width="2"/><text x="800" y="135" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">DRA</text>
+<path d="M 800 155 L 800 720" fill="none" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+<rect x="1055.0" y="105.0" width="130" height="50" rx="10" fill="#f7f9fc" stroke="#33475b" stroke-width="2"/><text x="1120" y="135" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">HSS</text>
+<path d="M 1120 155 L 1120 720" fill="none" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+<path d="M 150 210 L 480 210" fill="none" stroke="#33475b" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="315" y="200" font-size="13" fill="#33475b" font-weight="700" text-anchor="middle">Attach Request</text>
+<path d="M 480 285 L 1120 285" fill="none" stroke="#6a1b9a" stroke-width="2.4" marker-end="url(#mp)" stroke-linecap="round"/>
+<text x="800" y="273" font-size="13" fill="#6a1b9a" font-weight="700" text-anchor="middle">AIR — запрос векторов аутентификации</text>
+<path d="M 1120 360 L 480 360" fill="none" stroke="#6a1b9a" stroke-width="2.4" marker-end="url(#mp)" stroke-linecap="round"/>
+<text x="800" y="348" font-size="13" fill="#6a1b9a" font-weight="700" text-anchor="middle">AIA — векторы (RAND, XRES, AUTN, KASME)</text>
+<path d="M 480 435 L 1120 435" fill="none" stroke="#6a1b9a" stroke-width="2.4" marker-end="url(#mp)" stroke-linecap="round"/>
+<text x="800" y="423" font-size="13" fill="#6a1b9a" font-weight="700" text-anchor="middle">ULR — регистрация, запрос подписки</text>
+<path d="M 1120 510 L 480 510" fill="none" stroke="#6a1b9a" stroke-width="2.4" marker-end="url(#mp)" stroke-linecap="round"/>
+<text x="800" y="498" font-size="13" fill="#6a1b9a" font-weight="700" text-anchor="middle">ULA — Subscription-Data (APN, AMBR, RAT)</text>
+<path d="M 480 585 L 150 585" fill="none" stroke="#33475b" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="315" y="573" font-size="13" fill="#33475b" font-weight="700" text-anchor="middle">Attach Accept</text>
+<text x="800" y="650" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">DRA ретранслирует сообщения (маршрутизация по realm/host)</text>
+<text x="700" y="710" font-size="13" fill="#b71c1c" font-weight="700" text-anchor="middle">Типовые ошибки: 5001 — абонент неизвестен; 5420 — нет подписки EPS; 5422 — оборудование неизвестно</text>
+</svg>

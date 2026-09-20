@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1450" width="2600" height="1450" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2600" height="1450" fill="#ffffff"/>
+<text x="1300.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">CSFB и eSRVCC: голосовые сценарии LTE</text>
+<text x="1300.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Слева — перевод до вызова через SGs; справа — перевод активного вызова через Sv и IMS-якорь.</text>
+<rect x="40" y="150" width="1300" height="560" rx="14" fill="#f2f7fd" stroke="#c3d4e8" stroke-width="2"/>
+<text x="690" y="205" font-size="20" fill="#1f4e79" font-weight="700" text-anchor="middle">CSFB: голос до вызова (SGs)</text>
+<text x="690" y="250" font-size="14" fill="#556677" font-weight="middle" text-anchor="middle">Combined attach • TAC↔LAC mapping • redirect / PS HO • fast return</text>
+<rect x="1360" y="150" width="1200" height="560" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1960" y="205" font-size="20" fill="#2e7d32" font-weight="700" text-anchor="middle">eSRVCC: активный голос (Sv)</text>
+<text x="1960" y="250" font-size="14" fill="#556677" font-weight="middle" text-anchor="middle">MME ↔ MSC (Sv) • ATCF/ATGW • interruption &lt; 300 мс</text>
+<rect x="40" y="780" width="2520" height="620" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="80" y="840" font-size="18" fill="#33475b" font-weight="700" text-anchor="start">Ключевые точки отказа и проверки</text>
+<text x="80" y="895" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• MT-вызов не доходит: SGs-ассоциация, paging CS, TAC↔LAC mapping</text>
+<text x="80" y="940" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• MO-вызов долгий: PS HO/redirect, соседи 2G/3G, fast return</text>
+<text x="80" y="985" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Обрыв при уходе из LTE: SRVCC (Sv, ATCF), покрытие 2G/3G</text>
+<text x="80" y="1030" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• После вызова: возврат в LTE по приоритетам (RFSP/redirect)</text>
+<text x="80" y="1085" font-size="14" fill="#1f4e79" font-weight="700" text-anchor="start">KPI: CSFB SR и setup time • SGs paging SR • return-to-LTE • SRVCC interruption time</text>
+<text x="80" y="1130" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">Инструменты: трейсы MME/MSC/eNB; Wireshark: sgsap, s1ap, diameter (Sv), ranap, bssap</text>
+<path d="M 160 560 L 400 560" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 400 560 L 660 560" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 660 560 L 940 560" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 940 560 L 1200 560" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 400 612 L 1200 612" fill="none" stroke="#546e7a" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-gray)" stroke-linecap="round"/>
+<path d="M 1460 560 L 1700 560" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1700 560 L 1960 560" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1960 560 L 2220 560" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 2220 560 L 2460 560" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<rect x="90.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="160" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="325.0" y="534.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="400" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">eNB</text>
+<rect x="590.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="660" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<rect x="870.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="940" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MSC / VLR</text>
+<rect x="1125.0" y="534.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1200" y="554" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">BSS / RNC</text>
+<text x="1200" y="576" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">2G / 3G</text>
+<rect x="1390.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1460" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="1625.0" y="534.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1700" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">eNB</text>
+<rect x="1890.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1960" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<rect x="2150.0" y="534.0" width="140" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2220" y="565" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MSC</text>
+<rect x="2375.0" y="534.0" width="170" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2460" y="554" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">ATCF / ATGW</text>
+<text x="2460" y="576" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">якорь медиа</text>
+<text x="260.8" y="576.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu</text>
+<text x="509.2" y="530.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-MME: ESR (CSFB)</text>
+<text x="777.6" y="576.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGs: SGsAP</text>
+<text x="1049.2" y="576.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">A / Iu-CS</text>
+<text x="736.0" y="628.0" font-size="12.5" fill="#546e7a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">перевод: PS HO или redirect</text>
+<text x="1560.8" y="530.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu: VoLTE (QCI 1)</text>
+<text x="1809.2" y="530.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1AP: Handover Required</text>
+<text x="2069.2" y="530.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sv: PS-to-CS</text>
+<text x="2320.8" y="530.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">непрерывность (SCC)</text>
+</svg>

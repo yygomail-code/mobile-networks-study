@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1400" width="2200" height="1400" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2200" height="1400" fill="#ffffff"/>
+<text x="1100.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">QoS в 4G (EPS): bearer&#x27;ы, параметры и управление</text>
+<text x="1100.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Сквозной путь QoS: от политик PCRF до радио и UE. Цвет линии = зона ответственности.</text>
+<rect x="60" y="1000" width="2080" height="340" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="1055" font-size="18" fill="#33475b" font-weight="700" text-anchor="start">Где применяются параметры QoS</text>
+<text x="100" y="1110" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• UE: TFT — классификация UL-трафика, QoS-правила</text>
+<text x="100" y="1150" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• RAN (eNB): admission control, планировщик, DRB, вытеснение по ARP</text>
+<text x="100" y="1190" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Core: bearer&#x27;ы (default/dedicated), E-RAB QoS, enforcement, AMBR</text>
+<text x="100" y="1230" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• PCRF/PCF: PCC-правила — QCI/5QI, GBR/MBR, ARP, flow-фильтры</text>
+<text x="100" y="1275" font-size="14" fill="#1f4e79" font-weight="700" text-anchor="start">Ключевые параметры: QCI (1–9, 65–95) • ARP (1–15 + pre-emption) • GBR/MBR • APN-AMBR • UE-AMBR • TFT/SDF</text>
+<text x="100" y="1310" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">Примеры: QCI 1 — голос • 5 — IMS-сигнализация • 9 — default • 65–70 — mission critical • 75 — V2X</text>
+<path d="M 200 650 L 550 650" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 550 650 L 900 650" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 900 650 L 1250 650" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1250 650 L 1750 650" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 550 650 L 650 250" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 650 250 L 900 650" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 350 250 L 650 250" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1250 650 L 1050 250" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1050 250 L 1450 250" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1050 220 L 1050 150 L 1850 150 L 1850 220" fill="none" stroke="#e65100" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1250 620 L 1850 280" fill="none" stroke="#6a1b9a" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-chg)" stroke-linecap="round"/>
+<rect x="125.0" y="620.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="200" y="646" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<text x="200" y="666" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">TFT, классификация UL</text>
+<rect x="475.0" y="620.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="550" y="646" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">eNB</text>
+<text x="550" y="666" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">планировщик, admission</text>
+<rect x="825.0" y="620.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="900" y="646" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SGW</text>
+<text x="900" y="666" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">транспорт bearer&#x27;ов</text>
+<rect x="1175.0" y="620.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1250" y="646" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PGW</text>
+<text x="1250" y="666" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">PCEF: enforcement</text>
+<rect x="1665.0" y="620.0" width="170" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1750" y="646" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PDN / Internet</text>
+<text x="1750" y="666" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">внешняя сеть</text>
+<rect x="275.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="350" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">HSS</text>
+<text x="350" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">подписка абонента</text>
+<rect x="575.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="650" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<text x="650" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">управление bearer&#x27;ами</text>
+<rect x="975.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1050" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF</text>
+<text x="1050" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">PCC-правила</text>
+<rect x="1375.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1450" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">AF (P-CSCF)</text>
+<text x="1450" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">запрос медиа (VoLTE)</text>
+<rect x="1775.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1850" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">OCS</text>
+<text x="1850" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">тарификация, лимиты</text>
+<text x="347.0" y="666.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu: DRB (QCI, GBR)</text>
+<text x="697.0" y="666.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-U: GTP-U</text>
+<text x="1047.0" y="666.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S5/S8: bearer QoS</text>
+<text x="1460.0" y="666.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGi (DSCP)</text>
+<text x="607.5222800023253" y="485.8805700005813" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-MME: E-RAB Setup (QCI, ARP, GBR/MBR)</text>
+<text x="741.4320271359186" y="426.47998304005085" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S11: Create/Modify Bearer (QoS)</text>
+<text x="476.0" y="266.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6a: подписка</text>
+<text x="1180.3108350559987" y="474.8445824720007" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx: PCC-правила (QCI, GBR, ARP, AMBR)</text>
+<text x="1218.0" y="266.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Rx: медиа (VoLTE)</text>
+<text x="1386.0" y="204.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sy: лимиты</text>
+<text x="1509.8882011516941" y="491.12035497357783" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gy: тарификация</text>
+</svg>

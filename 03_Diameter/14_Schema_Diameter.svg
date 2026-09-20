@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1700" width="2200" height="1700" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<path d="M 300 200 L 1100 600" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 300 400 L 1100 600" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 300 600 L 1100 600" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 300 800 L 1100 600" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 300 1000 L 1100 600" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-wifi)" stroke-linecap="round"/>
+<path d="M 300 1200 L 1100 600" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1100 600 L 1900 200" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1100 600 L 1900 400" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1100 600 L 1900 600" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-wifi)" stroke-linecap="round"/>
+<path d="M 1100 600 L 1900 800" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1100 600 L 1900 1000" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-chg)" stroke-linecap="round"/>
+<path d="M 1100 600 L 1900 1200" fill="none" stroke="#6a1b9a" stroke-width="2.6" marker-end="url(#arr-ims)" stroke-linecap="round"/>
+<path d="M 800 200 L 1100 600" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1050 200 L 1100 600" fill="none" stroke="#6a1b9a" stroke-width="2.6" marker-end="url(#arr-ims)" stroke-linecap="round"/>
+<path d="M 1300 200 L 1100 600" fill="none" stroke="#6a1b9a" stroke-width="2.6" marker-end="url(#arr-ims)" stroke-linecap="round"/>
+<path d="M 1550 200 L 1100 600" fill="none" stroke="#6a1b9a" stroke-width="2.6" marker-end="url(#arr-ims)" stroke-linecap="round"/>
+<path d="M 650 1100 L 1100 600" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 850 1100 L 1100 600" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1050 1100 L 1100 600" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1250 1100 L 1100 600" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1450 1100 L 1100 600" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<rect x="225.0" y="172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="300" y="196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<text x="300" y="216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">мобильность LTE</text>
+<rect x="225.0" y="372.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="300" y="396" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SGSN</text>
+<text x="300" y="416" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">ядро 2G/3G PS</text>
+<rect x="225.0" y="572.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="300" y="596" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PGW</text>
+<text x="300" y="616" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">шлюз + PCEF</text>
+<rect x="225.0" y="772.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="300" y="796" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SGW</text>
+<text x="300" y="816" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">шлюз к радио</text>
+<rect x="225.0" y="972.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="300" y="996" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">ePDG</text>
+<text x="300" y="1016" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">Wi-Fi доступ</text>
+<rect x="225.0" y="1172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="300" y="1196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MSC-S</text>
+<text x="300" y="1216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">SRVCC</text>
+<rect x="1820.0" y="172.0" width="160" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">HSS / UDM</text>
+<text x="1900" y="216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">абонент, аутентификация</text>
+<rect x="1825.0" y="372.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="396" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">EIR</text>
+<text x="1900" y="416" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">проверка IMEI</text>
+<rect x="1825.0" y="572.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="596" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">AAA</text>
+<text x="1900" y="616" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">non-3GPP доступ</text>
+<rect x="1825.0" y="772.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="796" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF / PCF</text>
+<text x="1900" y="816" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">политики и QoS</text>
+<rect x="1825.0" y="972.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="996" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">OCS / CHF</text>
+<text x="1900" y="1016" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">тарификация</text>
+<rect x="1825.0" y="1172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="1196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SLF</text>
+<text x="1900" y="1216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">поиск HSS</text>
+<rect x="725.0" y="172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="800" y="196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">P-CSCF</text>
+<text x="800" y="216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">SIP-прокси</text>
+<rect x="975.0" y="172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1050" y="196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">I-CSCF</text>
+<text x="1050" y="216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">вход в IMS</text>
+<rect x="1225.0" y="172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1300" y="196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">S-CSCF</text>
+<text x="1300" y="216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">регистрация IMS</text>
+<rect x="1475.0" y="172.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1550" y="196" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">TAS / SCC AS</text>
+<text x="1550" y="216" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">услуги, T-ADS</text>
+<rect x="1005.0" y="565.0" width="190" height="70" rx="10" fill="#eceff1" stroke="#263238" stroke-width="2.2"/>
+<text x="1100" y="596" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">DRA / DEA</text>
+<text x="1100" y="616" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">маршрутизация Diameter</text>
+<rect x="575.0" y="1072.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="650" y="1096" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">TDF</text>
+<text x="650" y="1116" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">DPI-детект</text>
+<rect x="775.0" y="1072.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="850" y="1096" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">RCAF</text>
+<text x="850" y="1116" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">перегрузка</text>
+<rect x="975.0" y="1072.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1050" y="1096" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SCEF</text>
+<text x="1050" y="1116" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">IoT-сервисы</text>
+<rect x="1175.0" y="1072.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1250" y="1096" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">GMLC</text>
+<text x="1250" y="1116" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">LCS</text>
+<rect x="1375.0" y="1072.0" width="150" height="56" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1450" y="1096" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SMSC</text>
+<text x="1450" y="1116" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">SMS</text>
+<text x="628.8445824720006" y="382.31083505599867" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6a, S13, Sv</text>
+<text x="632.1194299994187" y="499.5222800023253" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6d, S13&#x27;</text>
+<text x="636.0" y="616.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx, Gy, S6b</text>
+<text x="639.8805700005813" y="731.5222800023253" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gxx</text>
+<text x="643.1554175279994" y="846.3108350559986" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SWm</text>
+<text x="645.6" y="960.8" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sv</text>
+<text x="1443.1554175279994" y="446.31083505599867" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6a, S6d, S6m, S6t, SLh, S6c</text>
+<text x="1439.8805700005814" y="531.5222800023253" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S13, S13&#x27;</text>
+<text x="1436.0" y="616.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SWx</text>
+<text x="1432.1194299994186" y="699.5222800023253" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx, Gxx, Rx, Sd, Np</text>
+<text x="1428.8445824720006" y="782.3108350559986" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gy, Ro, Sy</text>
+<text x="1426.4" y="864.8" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Dx</text>
+<text x="913.2" y="377.6" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Rx</text>
+<text x="1055.1235539725812" y="369.98455575342734" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Cx</text>
+<text x="1201.6891649440013" y="360.8445824720007" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Cx</text>
+<text x="1350.3701785787214" y="356.04145090106147" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sh, Ro</text>
+<text x="850.8927063399547" y="900.7034357059592" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sd</text>
+<text x="969.3108350559986" y="897.1554175279994" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Np</text>
+<text x="1086.9205950433598" y="891.592059504336" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6m, S6t, T6a</text>
+<text x="1202.3252205635383" y="885.4024338309384" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SLg, SLh</text>
+<text x="1316.1077107283047" y="880.8246024901867" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S6c, SGd</text>
+<marker id="arr-ims" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-wifi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-infra" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2200" height="1700" fill="#ffffff"/>
+<text x="1100.0" y="42" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">Diameter в мобильной сети: интерфейсы, приложения и агенты (DRA)</text>
+<text x="1100.0" y="76" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Цвет линии = домен применения. App-Id приложений — по реестру IANA (AAA Parameters).</text>
+<rect x="190" y="130" width="230" height="1160" rx="14" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="208" y="158" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">Доступ и шлюзы</text>
+<rect x="1780" y="130" width="240" height="1160" rx="14" fill="#f6eefb" stroke="#d9c3e8" stroke-width="2"/>
+<text x="1798" y="158" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">Данные, политика, тарификация</text>
+<rect x="690" y="130" width="970" height="140" rx="14" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="708" y="158" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">IMS</text>
+<rect x="560" y="1030" width="1000" height="140" rx="14" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="578" y="1058" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">Сервисы и аналитика</text>
+<rect x="60" y="1300" width="500" height="230" rx="12" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="80" y="1335" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">Инфраструктура Diameter</text>
+<text x="80" y="1372" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• DRA/DEA — маршрутизация по realm/host, балансировка, защита</text>
+<text x="80" y="1402" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• SLF — поиск HSS (Dx), когда HSS несколько</text>
+<text x="80" y="1432" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• IPX/GRX + DEA — роуминг между операторами</text>
+<text x="80" y="1462" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• IWF — перевод Diameter ↔ HTTP/2 (5G)</text>
+<rect x="1660" y="1300" width="520" height="230" rx="12" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1680" y="1335" font-size="17" fill="#33475b" font-weight="700" text-anchor="start">5G и эволюция</text>
+<text x="1680" y="1370" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• UDM / PCF / CHF: сервисные интерфейсы N8, N10, N11, N40 (HTTP/2)</text>
+<text x="1680" y="1400" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• Роуминг 5G: SEPP (N32); interworking EPS ↔ 5GS: N26 (GTPv2-C)</text>
+<text x="1680" y="1430" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• Diameter остаётся: EPS, IMS, 2G/3G и стыки через IWF</text>
+<text x="1680" y="1460" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">• Тарификация: Gy/Ro → N40/CHF; политики: Gx/Rx → N7/N5</text>
+<rect x="40" y="1550" width="2120" height="115" rx="12" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<line x1="70" y1="1585" x2="116" y2="1585" stroke="#1f4e79" stroke-width="3"/><text x="126" y="1590" font-size="13" fill="#33475b" font-weight="normal" text-anchor="start">Подписка и мобильность (S6a, S6d, S13, S6m, S6t, SLg, SLh, S6c, SGd)</text>
+<line x1="780" y1="1585" x2="826" y2="1585" stroke="#2e7d32" stroke-width="3"/><text x="836" y="1590" font-size="13" fill="#33475b" font-weight="normal" text-anchor="start">Политики и QoS (Gx, Gxx, Rx, Sd, Np)</text>
+<line x1="1330" y1="1585" x2="1376" y2="1585" stroke="#e65100" stroke-width="3"/><text x="1386" y="1590" font-size="13" fill="#33475b" font-weight="normal" text-anchor="start">Тарификация (Gy, Ro, Sy)</text>
+<line x1="70" y1="1625" x2="116" y2="1625" stroke="#6a1b9a" stroke-width="3"/><text x="126" y="1630" font-size="13" fill="#33475b" font-weight="normal" text-anchor="start">IMS (Cx, Dx, Sh)</text>
+<line x1="780" y1="1625" x2="826" y2="1625" stroke="#00796b" stroke-width="3"/><text x="836" y="1630" font-size="13" fill="#33475b" font-weight="normal" text-anchor="start">Wi-Fi calling / non-3GPP (SWm, SWx, S6b)</text>
+<line x1="1330" y1="1625" x2="1376" y2="1625" stroke="#546e7a" stroke-width="3"/><text x="1386" y="1630" font-size="13" fill="#33475b" font-weight="normal" text-anchor="start">Инфраструктура (DRA, DEA, SLF, IPX/SEPP, IWF)</text>
+<text x="620" y="1528" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">В реальной сети соединения проходят через DRA/DEA: маршрутизация по realm/host, балансировка, sticky-сессии, защита.</text>
+</svg>

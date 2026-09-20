@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 800" width="1500" height="800" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs><rect x="0" y="0" width="1500" height="800" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">KPI-дерево оптимизации RAN</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Четыре группы KPI и формулы: успех / попытки × 100%</text>
+<rect x="590" y="120" width="320" height="64" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="750" y="160" font-size="19" fill="#1f4e79" font-weight="700" text-anchor="middle">Целевой KPI</text>
+<path d="M 750 184 L 190 260" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#ma)"/>
+<rect x="40" y="260" width="300" height="60" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="190" y="297" font-size="17" fill="#1f4e79" font-weight="700" text-anchor="middle">Accessibility</text>
+<text x="190" y="365" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">RRC Setup SR</text>
+<text x="190" y="401" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">E-RAB Setup SR</text>
+<text x="190" y="437" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Service Request SR</text>
+<text x="190" y="473" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Paging SR</text>
+<path d="M 750 184 L 570 260" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#ma)"/>
+<rect x="420" y="260" width="300" height="60" rx="10" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="570" y="297" font-size="17" fill="#2e7d32" font-weight="700" text-anchor="middle">Retainability</text>
+<text x="570" y="365" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">E-RAB Drop Rate</text>
+<text x="570" y="401" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">RRC abnormal release</text>
+<path d="M 750 184 L 950 260" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#ma)"/>
+<rect x="800" y="260" width="300" height="60" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="950" y="297" font-size="17" fill="#e65100" font-weight="700" text-anchor="middle">Mobility</text>
+<text x="950" y="365" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">HO SR (X2/S1/N2)</text>
+<text x="950" y="401" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">CSFB / EPS fallback SR</text>
+<path d="M 750 184 L 1330 260" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#ma)"/>
+<rect x="1180" y="260" width="300" height="60" rx="10" fill="#f6eefb" stroke="#dcc8ea" stroke-width="2"/>
+<text x="1330" y="297" font-size="17" fill="#6a1b9a" font-weight="700" text-anchor="middle">Integrity</text>
+<text x="1330" y="365" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Throughput (DL/UL)</text>
+<text x="1330" y="401" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Latency, PRB util</text>
+<text x="750" y="560" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">KPI считается по попыткам; знаменатель так же важен, как числитель</text>
+<text x="750" y="600" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Счётчики Core и RAN считаются независимо — расхождение указывает на стык/транспорт</text>
+<text x="750" y="680" font-size="14" fill="#1f4e79" font-weight="700" text-anchor="middle">TS 32.401 · TS 32.425 · TS 32.450 · TS 28.552</text>
+</svg>

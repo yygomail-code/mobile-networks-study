@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1600" width="2800" height="1600" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2800" height="1600" fill="#ffffff"/>
+<text x="1400.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">Фильтрация трафика: уровни и механизмы</text>
+<text x="1400.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">От классификации в UE до DPI, политик и границы сети; где живут правила в 4G и 5G.</text>
+<rect x="60" y="130" width="2680" height="1000" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1400" y="195" font-size="20" fill="#33475b" font-weight="700" text-anchor="middle">Карта фильтрации: где какие фильтры</text>
+<rect x="60" y="1170" width="2680" height="380" rx="14" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="100" y="1225" font-size="18" fill="#1f4e79" font-weight="700" text-anchor="start">Ключевые принципы</text>
+<text x="100" y="1275" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Классификация: 5-tuple, приложение (DPI), URL/категории, DNS; UL и DL настраиваются раздельно</text>
+<text x="100" y="1315" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• 4G: TFT (UE) + SDF/PCC (PGW) + TDF (Sd); 5G: PDR/FAR/QER/URR в UPF + QoS rules в UE</text>
+<text x="100" y="1355" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Политики: zero-rating, FUP, родительский контроль, корпоративные APN, роуминг, anti-DDoS/LI</text>
+<text x="100" y="1395" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Диагностика: Gx/N7-правила, N4-сессии (PFCP), счётчики правил/URR, тесты UL и DL</text>
+<path d="M 1400 285 L 1400 445" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 550 500 L 925 500" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 550 540 L 1075 750" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1400 555 L 1400 700" fill="none" stroke="#546e7a" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-gray)" stroke-linecap="round"/>
+<path d="M 1000 555 L 850 555 L 850 990 L 1075 990" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1875 500 L 2250 500" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<rect x="1050.0" y="195.0" width="700" height="90" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="234" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<text x="1400" y="256" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">TFT (4G) / QoS rules (5G): классификация UL</text>
+<rect x="925.0" y="445.0" width="950" height="110" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="494" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PGW / UPF</text>
+<text x="1400" y="516" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">SDF/PDR → FAR/QER/URR: классификация DL, действия, QoS, учёт</text>
+<rect x="1075.0" y="700.0" width="650" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="744" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">TDF / DPI</text>
+<text x="1400" y="766" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">приложения, URL, категории (Sd / UPF)</text>
+<rect x="1075.0" y="945.0" width="650" height="90" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="984" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">Граница сети</text>
+<text x="1400" y="1006" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">firewall, NAT, anti-DDoS (SGi / N6)</text>
+<rect x="250.0" y="445.0" width="300" height="110" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="400" y="494" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF / PCF</text>
+<text x="400" y="516" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">правила PCC: Gx/N7, Sd</text>
+<rect x="2250.0" y="445.0" width="300" height="110" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2400" y="494" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">DNS-фильтрация</text>
+<text x="2400" y="516" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">домены, категории</text>
+<text x="1384.0" y="352.2" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">UL: TFT / QoS rules</text>
+<text x="707.5" y="516.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx/N7: правила</text>
+<text x="764.5577491783343" y="643.0556270541642" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sd (DPI)</text>
+<text x="1384.0" y="615.9" font-size="12.5" fill="#546e7a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sd / внутренний DPI</text>
+<text x="1015.7326381480905" y="740.4185106641224" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGi / N6</text>
+<text x="2032.5" y="516.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">DNS-запросы</text>
+</svg>

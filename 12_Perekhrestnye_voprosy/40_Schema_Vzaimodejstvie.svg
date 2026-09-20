@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1600" width="2800" height="1600" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2800" height="1600" fill="#ffffff"/>
+<text x="1400.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">Перекрёстные вопросы: кто что спросит и как отвечать</text>
+<text x="1400.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Потоки данных между отделами, Core, RAN и OSS; внизу — структура ответа и правила.</text>
+<rect x="60" y="130" width="2680" height="950" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1400" y="195" font-size="20" fill="#33475b" font-weight="700" text-anchor="middle">Взаимодействие отделов и потоки данных</text>
+<rect x="60" y="1120" width="2680" height="420" rx="14" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="100" y="1175" font-size="18" fill="#1f4e79" font-weight="700" text-anchor="start">Как отвечать: структура (7 шагов)</text>
+<text x="100" y="1225" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">1. Контекст  2. Данные (интерфейс/поле/значение)  3. Гипотеза  4. Действие (один фактор)</text>
+<text x="100" y="1265" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">5. Проверка: целевой KPI + guard-KPI, окно 24–72 ч   6. Риск и откат   7. Вывод (что доказано)</text>
+<text x="100" y="1310" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">Правила: числа и интерфейсы, а не общие слова • не выдумывать • границы зон признавать, ответственность — совместная</text>
+<text x="100" y="1355" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">Цифры под рукой: порты (S1AP 36412, NGAP 38412, GTP-U 2152, PFCP 8805, Diameter 3868), таймеры (T3412, T3346), KPI-цели</text>
+<text x="100" y="1400" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">Guard-KPI: доступность экстренных/приоритетных, drop rate, HO SR, MOS, загрузка сигнализации и транспорта</text>
+<path d="M 450 850 L 450 470" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 600 870 L 450 470" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 600 850 L 1400 350" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 1400 850 L 1400 350" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 2180 420 L 1560 350" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 2180 450 L 610 450" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 600 900 L 2180 420" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1550 880 L 2180 460" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 2350 850 L 2350 470" fill="none" stroke="#6a1b9a" stroke-width="2.6" marker-end="url(#arr-chg)" stroke-linecap="round"/>
+<path d="M 2350 850 L 1400 350" fill="none" stroke="#6a1b9a" stroke-width="2.6" marker-end="url(#arr-chg)" stroke-linecap="round"/>
+<rect x="290.0" y="370.0" width="320" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="450" y="414" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">Траблшутинг</text>
+<text x="450" y="436" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">локализация, cause, инциденты</text>
+<rect x="1240.0" y="250.0" width="320" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="294" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">Оптимизация</text>
+<text x="1400" y="316" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">KPI, RFSP, процесс изменений</text>
+<rect x="2180.0" y="370.0" width="340" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2350" y="414" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">Радиоизмерения</text>
+<text x="2350" y="436" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">драйв/MDT/Trace, MOS</text>
+<rect x="300.0" y="850.0" width="300" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="450" y="894" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">Core</text>
+<text x="450" y="916" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">MME/AMF, SGW/UPF, PCRF/PCF</text>
+<rect x="1250.0" y="850.0" width="300" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1400" y="894" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">RAN</text>
+<text x="1400" y="916" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">eNB/gNB, RRM</text>
+<rect x="2200.0" y="850.0" width="300" height="100" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2350" y="894" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">OSS / данные</text>
+<text x="2350" y="916" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">PM, MDT, Trace</text>
+<text x="466.0" y="690.4" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">KPI, трейсы</text>
+<text x="522.0187331588953" y="707.6179750654143" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">счётчики, логи</text>
+<text x="944.4799830400509" y="653.5679728640814" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">параметры, KPI</text>
+<text x="1416.0" y="640.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">RRM, KPI</text>
+<text x="1921.3950469857264" y="374.7010124121366" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">измерения до/после</text>
+<text x="1520.6" y="434.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">замеры, RTP</text>
+<text x="1268.2508740371118" y="713.7091270388262" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">QoS/RFSP, события</text>
+<text x="1823.4752031396035" y="716.9128047094055" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">scheduler counters</text>
+<text x="2366.0" y="690.4" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">MDT / Trace</text>
+<text x="1958.4519429253219" y="625.8413084418883" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">PM / KPI</text>
+</svg>

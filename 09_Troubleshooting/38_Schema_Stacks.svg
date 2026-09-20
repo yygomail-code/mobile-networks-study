@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1500" width="2600" height="1500" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="2600" height="1500" fill="#ffffff"/>
+<text x="1300" y="44" font-size="30" font-weight="700" fill="#16212b" text-anchor="middle">Стеки протоколов по интерфейсам</text>
+<text x="1300" y="78" font-size="15" fill="#556677" text-anchor="middle">Что смотреть на каждом стыке: уровни и транспорты</text>
+<text x="300" y="140" font-size="15" font-weight="700" fill="#1f4e79" text-anchor="middle">Uu (UE ↔ eNB/gNB)</text>
+<rect x="150" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="300" y="204" font-size="16" fill="#16212b" text-anchor="middle">NAS</text>
+<rect x="150" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="300" y="262" font-size="16" fill="#16212b" text-anchor="middle">RRC</text>
+<rect x="150" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="300" y="320" font-size="16" fill="#16212b" text-anchor="middle">PDCP</text>
+<rect x="150" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="300" y="378" font-size="16" fill="#16212b" text-anchor="middle">RLC</text>
+<rect x="150" y="402" width="300" height="52" rx="6" fill="#ffffff" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="300" y="436" font-size="16" fill="#16212b" text-anchor="middle">MAC</text>
+<rect x="150" y="460" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#1f4e79" stroke-width="1.8"/>
+<text x="300" y="494" font-size="16" fill="#16212b" text-anchor="middle">PHY</text>
+<text x="640" y="140" font-size="15" font-weight="700" fill="#2e7d32" text-anchor="middle">S1-MME (S1AP)</text>
+<rect x="490" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="640" y="204" font-size="16" fill="#16212b" text-anchor="middle">S1AP</text>
+<rect x="490" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="640" y="262" font-size="16" fill="#16212b" text-anchor="middle">SCTP</text>
+<rect x="490" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="640" y="320" font-size="16" fill="#16212b" text-anchor="middle">IP</text>
+<rect x="490" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="640" y="378" font-size="16" fill="#16212b" text-anchor="middle">L2/L1</text>
+<text x="980" y="140" font-size="15" font-weight="700" fill="#00796b" text-anchor="middle">S1-U (данные)</text>
+<rect x="830" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#00796b" stroke-width="1.8"/>
+<text x="980" y="204" font-size="16" fill="#16212b" text-anchor="middle">GTP-U</text>
+<rect x="830" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#00796b" stroke-width="1.8"/>
+<text x="980" y="262" font-size="16" fill="#16212b" text-anchor="middle">UDP</text>
+<rect x="830" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#00796b" stroke-width="1.8"/>
+<text x="980" y="320" font-size="16" fill="#16212b" text-anchor="middle">IP</text>
+<rect x="830" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#00796b" stroke-width="1.8"/>
+<text x="980" y="378" font-size="16" fill="#16212b" text-anchor="middle">L2/L1</text>
+<text x="1320" y="140" font-size="15" font-weight="700" fill="#e65100" text-anchor="middle">S6a / Gx (Diam)</text>
+<rect x="1170" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#e65100" stroke-width="1.8"/>
+<text x="1320" y="204" font-size="16" fill="#16212b" text-anchor="middle">Diameter</text>
+<rect x="1170" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#e65100" stroke-width="1.8"/>
+<text x="1320" y="262" font-size="16" fill="#16212b" text-anchor="middle">SCTP</text>
+<rect x="1170" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#e65100" stroke-width="1.8"/>
+<text x="1320" y="320" font-size="16" fill="#16212b" text-anchor="middle">IP</text>
+<rect x="1170" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#e65100" stroke-width="1.8"/>
+<text x="1320" y="378" font-size="16" fill="#16212b" text-anchor="middle">L2/L1</text>
+<text x="1660" y="140" font-size="15" font-weight="700" fill="#6a1b9a" text-anchor="middle">N2 (NGAP)</text>
+<rect x="1510" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#6a1b9a" stroke-width="1.8"/>
+<text x="1660" y="204" font-size="16" fill="#16212b" text-anchor="middle">NGAP</text>
+<rect x="1510" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#6a1b9a" stroke-width="1.8"/>
+<text x="1660" y="262" font-size="16" fill="#16212b" text-anchor="middle">SCTP</text>
+<rect x="1510" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#6a1b9a" stroke-width="1.8"/>
+<text x="1660" y="320" font-size="16" fill="#16212b" text-anchor="middle">IP</text>
+<rect x="1510" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#6a1b9a" stroke-width="1.8"/>
+<text x="1660" y="378" font-size="16" fill="#16212b" text-anchor="middle">L2/L1</text>
+<text x="2000" y="140" font-size="15" font-weight="700" fill="#546e7a" text-anchor="middle">N4 (PFCP)</text>
+<rect x="1850" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#546e7a" stroke-width="1.8"/>
+<text x="2000" y="204" font-size="16" fill="#16212b" text-anchor="middle">PFCP</text>
+<rect x="1850" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#546e7a" stroke-width="1.8"/>
+<text x="2000" y="262" font-size="16" fill="#16212b" text-anchor="middle">UDP</text>
+<rect x="1850" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#546e7a" stroke-width="1.8"/>
+<text x="2000" y="320" font-size="16" fill="#16212b" text-anchor="middle">IP</text>
+<rect x="1850" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#546e7a" stroke-width="1.8"/>
+<text x="2000" y="378" font-size="16" fill="#16212b" text-anchor="middle">L2/L1</text>
+<text x="2340" y="140" font-size="15" font-weight="700" fill="#b71c1c" text-anchor="middle">IMS (SIP/RTP)</text>
+<rect x="2190" y="170" width="300" height="52" rx="6" fill="#ffffff" stroke="#b71c1c" stroke-width="1.8"/>
+<text x="2340" y="204" font-size="16" fill="#16212b" text-anchor="middle">SIP / RTP</text>
+<rect x="2190" y="228" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#b71c1c" stroke-width="1.8"/>
+<text x="2340" y="262" font-size="16" fill="#16212b" text-anchor="middle">UDP</text>
+<rect x="2190" y="286" width="300" height="52" rx="6" fill="#ffffff" stroke="#b71c1c" stroke-width="1.8"/>
+<text x="2340" y="320" font-size="16" fill="#16212b" text-anchor="middle">IP</text>
+<rect x="2190" y="344" width="300" height="52" rx="6" fill="#f4f7fa" stroke="#b71c1c" stroke-width="1.8"/>
+<text x="2340" y="378" font-size="16" fill="#16212b" text-anchor="middle">L2/L1</text>
+<rect x="60" y="620" width="2480" height="440" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="675" font-size="18" font-weight="700" fill="#33475b" text-anchor="start">Порты и транспорт (что проверять в первую очередь)</text>
+<text x="100" y="730" font-size="15" fill="#556677" text-anchor="start">• S1AP: SCTP 36412 • X2AP: SCTP 36422 • NGAP: SCTP 38412 • XnAP: SCTP 38422</text>
+<text x="100" y="778" font-size="15" fill="#556677" text-anchor="start">• GTPv2-C: UDP 2123 • GTP-U: UDP 2152 • PFCP: UDP 8805</text>
+<text x="100" y="826" font-size="15" fill="#556677" text-anchor="start">• Diameter (S6a/Gx/Gy/Sv): SCTP 3868 • SGsAP: SCTP 29118 • RANAP: SCTP 25471</text>
+<text x="100" y="874" font-size="15" fill="#556677" text-anchor="start">• SIP: UDP/TCP 5060 (TLS 5061) • RTP: UDP (динамические порты, SRTP)</text>
+<text x="100" y="922" font-size="15" fill="#556677" text-anchor="start">• MTU: учитывать накладные GTP-U (36 байт: IP 20 + UDP 8 + GTP 8) и фрагментацию</text>
+<text x="100" y="970" font-size="15" fill="#556677" text-anchor="start">• SCTP: ассоциации, multihoming, heartbeat; потеря ассоциации = «немой» интерфейс</text>
+<text x="1300" y="1400" font-size="16" font-weight="700" fill="#b71c1c" text-anchor="middle">Правило: идти по стеку снизу вверх и искать первый уровень, где поведение расходится с ожидаемым</text>
+</svg>

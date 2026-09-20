@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1650" width="2800" height="1650" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2800" height="1650" fill="#ffffff"/>
+<text x="1400.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">IMS: архитектура и интерфейсы</text>
+<text x="1400.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">P-CSCF, I-CSCF, S-CSCF, HSS, серверы услуг, выход в PSTN и межсетевые стыки.</text>
+<rect x="60" y="130" width="2680" height="1180" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1400" y="195" font-size="20" fill="#33475b" font-weight="700" text-anchor="middle">Архитектура IMS: узлы и интерфейсы</text>
+<rect x="60" y="1350" width="2680" height="260" rx="14" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="100" y="1405" font-size="18" fill="#1f4e79" font-weight="700" text-anchor="start">Что важно помнить</text>
+<text x="100" y="1455" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• P-CSCF — первый контакт UE (регистрация, SIP-прокси, Rx/N5); I-CSCF — вход и выбор S-CSCF; S-CSCF — сессии и AS</text>
+<text x="100" y="1495" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• AS: MMTel (услуги), SCC (непрерывность/SRVCC), IP-SM-GW (SMS); HSS — профиль (Cx/Sh)</text>
+<text x="100" y="1535" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Выход в PSTN: BGCF → MGCF/MGW; межсетевые стыки: IBCF/TrGW (Ici/Izi, штриховая линия)</text>
+<path d="M 160 750 L 500 750" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 500 750 L 850 480" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 850 480 L 1200 480" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 850 480 L 1560 300" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1200 480 L 1560 300" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1200 480 L 1560 640" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1560 666 L 1560 326" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1200 480 L 850 1050" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1200 506 L 1200 1050" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1200 1050 L 1560 1050" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 500 776 L 500 1050" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1200 506 L 1200 760 L 2050 760 L 2050 1024" fill="none" stroke="#546e7a" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-gray)" stroke-linecap="round"/>
+<path d="M 850 480 L 850 206" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1200 480 L 850 206" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<rect x="95.0" y="724.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="160" y="755" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="425.0" y="724.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="500" y="744" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">P-CSCF</text>
+<text x="500" y="766" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">первый контакт</text>
+<rect x="775.0" y="454.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="850" y="474" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">I-CSCF</text>
+<text x="850" y="496" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">вход в сеть</text>
+<rect x="1125.0" y="454.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1200" y="474" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">S-CSCF</text>
+<text x="1200" y="496" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">сессии, услуги</text>
+<rect x="1475.0" y="274.0" width="170" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1560" y="294" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">HSS / SLF</text>
+<text x="1560" y="316" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">профиль</text>
+<rect x="1465.0" y="614.0" width="190" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1560" y="634" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">AS: MMTel / SCC</text>
+<text x="1560" y="656" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">услуги</text>
+<rect x="765.0" y="154.0" width="170" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="850" y="185" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">DNS / ENUM</text>
+<rect x="775.0" y="1024.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="850" y="1044" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MRF</text>
+<text x="850" y="1066" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">медиа-ресурсы</text>
+<rect x="1110.0" y="1024.0" width="180" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1200" y="1044" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">BGCF / MGCF</text>
+<text x="1200" y="1066" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">стык с PSTN</text>
+<rect x="1485.0" y="1024.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1560" y="1055" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">PSTN / CS</text>
+<rect x="1965.0" y="1024.0" width="170" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="2050" y="1044" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">IBCF / TrGW</text>
+<text x="2050" y="1066" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">граница сетей</text>
+<rect x="420.0" y="1024.0" width="160" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="500" y="1044" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCRF / PCF</text>
+<text x="500" y="1066" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">QoS</text>
+<text x="302.79999999999995" y="766.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gm (SIP)</text>
+<text x="656.7728552686691" y="649.2685160890155" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Mw</text>
+<text x="997.0" y="496.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Mw</text>
+<text x="1152.131946723014" y="419.90934540744325" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Cx (UAR/UAA)</text>
+<text x="1358.3554175279994" y="418.71083505599864" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Cx (SAR/SAA)</text>
+<text x="1344.7017845431449" y="561.8209847779242" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">ISC</text>
+<text x="1576.0" y="523.2" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Sh</text>
+<text x="1039.3652603884937" y="711.0277914666189" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Mr</text>
+<text x="1184.0" y="734.48" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Mw/Mj</text>
+<text x="1351.2" y="1066.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Mg (SIP↔ISUP)</text>
+<text x="484.0" y="891.08" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Rx / N5</text>
+<text x="866.0" y="364.92" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">DNS/ENUM</text>
+</svg>

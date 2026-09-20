@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" width="1500" height="820" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1500" height="820" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">SA: регистрация и PDU-сессия</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Ключевые шаги: NAS-регистрация в AMF, затем установление PDU-сессии через SMF/UPF</text>
+<rect x="68" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="130" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<path d="M 130 158 L 130 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="318" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="380" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">gNB</text>
+<path d="M 380 158 L 380 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="568" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="630" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">AMF</text>
+<path d="M 630 158 L 630 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="818" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="880" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">SMF</text>
+<path d="M 880 158 L 880 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="1068" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1130" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UPF</text>
+<path d="M 1130 158 L 1130 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="1318" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1380" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UDM</text>
+<path d="M 1380 158 L 1380 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M 130 205 L 630 205" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<text x="380" y="193" font-size="13" fill="#1f4e79" font-weight="700" text-anchor="middle">Registration Request (SUCI, NSSAI)</text>
+<path d="M 630 275 L 1380 275" fill="none" stroke="#00796b" stroke-width="2.4" marker-end="url(#mt)" stroke-linecap="round"/>
+<text x="1005" y="263" font-size="13" fill="#00796b" font-weight="700" text-anchor="middle">аутентификация и подписка (AUSF/UDM)</text>
+<path d="M 630 345 L 130 345" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<text x="380" y="333" font-size="13" fill="#1f4e79" font-weight="700" text-anchor="middle">Registration Accept (5G-GUTI)</text>
+<path d="M 130 425 L 880 425" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<text x="505" y="413" font-size="13" fill="#2e7d32" font-weight="700" text-anchor="middle">PDU Session Establishment Request (DNN, S-NSSAI)</text>
+<path d="M 880 495 L 1130 495" fill="none" stroke="#00796b" stroke-width="2.4" marker-end="url(#mt)" stroke-linecap="round"/>
+<text x="1005" y="483" font-size="13" fill="#00796b" font-weight="700" text-anchor="middle">N4 (PFCP): правила сессии</text>
+<path d="M 880 565 L 130 565" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<text x="505" y="553" font-size="13" fill="#2e7d32" font-weight="700" text-anchor="middle">PDU Session Establishment Accept (QoS rules)</text>
+<path d="M 130 645 L 1130 645" fill="none" stroke="#546e7a" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="630" y="633" font-size="13" fill="#546e7a" font-weight="700" text-anchor="middle">данные: UE ↔ gNB ↔ UPF (N3)</text>
+<text x="750" y="730" font-size="13.5" fill="#556677" font-weight="normal" text-anchor="middle">Состояния: RM-REGISTERED • CM-IDLE/CONNECTED • RRC: IDLE / INACTIVE / CONNECTED</text>
+</svg>

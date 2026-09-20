@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 580" width="1400" height="580" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b71c1c"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs>
+<rect x="0" y="0" width="1400" height="580" fill="#ffffff"/>
+<text x="700.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Gy: жизненный цикл кредит-контроля (prepaid)</text>
+<text x="700.0" y="78" font-size="14" fill="#556677" text-anchor="middle">CCR — запрос, CCA — ответ; квота выдаётся порциями и продлевается</text>
+<rect x="40" y="150" width="200" height="70" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="140" y="182" font-size="14" fill="#b26a00" font-weight="700" text-anchor="middle">CCR INITIAL</text>
+<text x="140" y="204" font-size="11.5" fill="#556677" font-weight="normal" text-anchor="middle">запрос квоты</text>
+<rect x="320" y="150" width="200" height="70" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="420" y="182" font-size="14" fill="#b26a00" font-weight="700" text-anchor="middle">CCA</text>
+<text x="420" y="204" font-size="11.5" fill="#556677" font-weight="normal" text-anchor="middle">GSU: выдана квота</text>
+<rect x="600" y="150" width="200" height="70" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="700" y="182" font-size="14" fill="#b26a00" font-weight="700" text-anchor="middle">CCR UPDATE</text>
+<text x="700" y="204" font-size="11.5" fill="#556677" font-weight="normal" text-anchor="middle">USU: израсходовано</text>
+<rect x="880" y="150" width="200" height="70" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="980" y="182" font-size="14" fill="#b26a00" font-weight="700" text-anchor="middle">CCA</text>
+<text x="980" y="204" font-size="11.5" fill="#556677" font-weight="normal" text-anchor="middle">новая квота</text>
+<rect x="1160" y="150" width="200" height="70" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="1260" y="182" font-size="14" fill="#b26a00" font-weight="700" text-anchor="middle">CCR TERMINATION</text>
+<text x="1260" y="204" font-size="11.5" fill="#556677" font-weight="normal" text-anchor="middle">финальный отчёт</text>
+<path d="M 242 185 L 318 185" fill="none" stroke="#b26a00" stroke-width="2.4" marker-end="url(#mo)" stroke-linecap="round"/>
+<text x="280" y="170" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">квота</text>
+<path d="M 522 185 L 598 185" fill="none" stroke="#b26a00" stroke-width="2.4" marker-end="url(#mo)" stroke-linecap="round"/>
+<text x="560" y="170" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">порог</text>
+<path d="M 802 185 L 878 185" fill="none" stroke="#b26a00" stroke-width="2.4" marker-end="url(#mo)" stroke-linecap="round"/>
+<text x="840" y="170" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">продление</text>
+<path d="M 1082 185 L 1158 185" fill="none" stroke="#b26a00" stroke-width="2.4" marker-end="url(#mo)" stroke-linecap="round"/>
+<text x="1120" y="170" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">конец</text>
+<rect x="320" y="300" width="760" height="110" rx="12" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="340" y="335" font-size="14" fill="#33475b" font-weight="700" text-anchor="start">При исчерпании квоты CCA содержит Final-Unit-Indication:</text>
+<text x="340" y="365" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">REDIRECT — редирект на страницу оплаты; TERMINATE — завершение сессии;</text>
+<text x="340" y="392" font-size="13" fill="#556677" font-weight="normal" text-anchor="start">RESTRICT_ACCESS — ограниченный доступ (только определённые ресурсы)</text>
+<text x="700" y="490" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">Коды: 4010 — услуга запрещена; 4011 — кредит-контроль неприменим; 4012 — лимит исчерпан</text>
+</svg>

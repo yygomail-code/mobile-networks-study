@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1500" width="2600" height="1500" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker></defs>
+<rect x="0" y="0" width="2600" height="1500" fill="#ffffff"/>
+<text x="1300" y="44" font-size="30" font-weight="700" fill="#16212b" text-anchor="middle">Петля оптимизации: от KPI к результату</text>
+<text x="1300" y="78" font-size="15" fill="#556677" text-anchor="middle">Целевой KPI, guard-метрики и цикл Plan → Do → Check → Act; инструменты данных</text>
+<rect x="80" y="130" width="1200" height="780" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="680" y="180" font-size="18" font-weight="700" fill="#33475b" text-anchor="middle">KPI-дерево</text>
+<rect x="530" y="210" width="300" height="60" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="680" y="247" font-size="17" font-weight="700" fill="#1f4e79" text-anchor="middle">Целевой KPI</text>
+<path d="M 680 270 L 200 330" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="90" y="330" width="220" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2"/>
+<text x="200" y="367" font-size="16" font-weight="700" fill="#16212b" text-anchor="middle">Accessibility</text>
+<text x="200" y="430" font-size="14" fill="#556677" text-anchor="middle">RRC Setup SR</text>
+<text x="200" y="464" font-size="14" fill="#556677" text-anchor="middle">E-RAB Setup SR</text>
+<text x="200" y="498" font-size="14" fill="#556677" text-anchor="middle">Service SR</text>
+<text x="200" y="532" font-size="14" fill="#556677" text-anchor="middle">Paging SR</text>
+<path d="M 680 270 L 500 330" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="390" y="330" width="220" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2"/>
+<text x="500" y="367" font-size="16" font-weight="700" fill="#16212b" text-anchor="middle">Retainability</text>
+<text x="500" y="430" font-size="14" fill="#556677" text-anchor="middle">E-RAB Drop Rate</text>
+<text x="500" y="464" font-size="14" fill="#556677" text-anchor="middle">RRC abnormal</text>
+<path d="M 680 270 L 800 330" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="690" y="330" width="220" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2"/>
+<text x="800" y="367" font-size="16" font-weight="700" fill="#16212b" text-anchor="middle">Mobility</text>
+<text x="800" y="430" font-size="14" fill="#556677" text-anchor="middle">HO SR (X2/S1/N2)</text>
+<text x="800" y="464" font-size="14" fill="#556677" text-anchor="middle">CSFB / EPS fallback</text>
+<path d="M 680 270 L 1100 330" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#a1)"/>
+<rect x="990" y="330" width="220" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2"/>
+<text x="1100" y="367" font-size="16" font-weight="700" fill="#16212b" text-anchor="middle">Integrity</text>
+<text x="1100" y="430" font-size="14" fill="#556677" text-anchor="middle">Throughput</text>
+<text x="1100" y="464" font-size="14" fill="#556677" text-anchor="middle">Latency</text>
+<text x="1100" y="498" font-size="14" fill="#556677" text-anchor="middle">PRB utilization</text>
+<text x="680" y="600" font-size="14" fill="#556677" text-anchor="middle">KPI = успех / попытки × 100%</text>
+<text x="680" y="636" font-size="14" fill="#556677" text-anchor="middle">TS 32.450 (4G), TS 28.552 (5G)</text>
+<rect x="160" y="680" width="1040" height="180" rx="12" fill="#ffffff" stroke="#e0e6ee" stroke-width="1.5"/>
+<text x="200" y="725" font-size="15" font-weight="700" fill="#33475b" text-anchor="start">Guard-метрики (не должны ухудшиться):</text>
+<text x="200" y="765" font-size="14" fill="#556677" text-anchor="start">• Доступность экстренных/приоритетных сервисов</text>
+<text x="200" y="800" font-size="14" fill="#556677" text-anchor="start">• Retainability и Mobility соседних сот/слоёв</text>
+<text x="200" y="835" font-size="14" fill="#556677" text-anchor="start">• Загрузка сигнализации и транспорта</text>
+<rect x="1340" y="130" width="1180" height="780" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1930" y="180" font-size="18" font-weight="700" fill="#2e7d32" text-anchor="middle">Цикл PDCA</text>
+<rect x="1420" y="230" width="380" height="90" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+<text x="1610" y="268" font-size="20" font-weight="700" fill="#2e7d32" text-anchor="middle">Plan</text>
+<text x="1610" y="296" font-size="13" fill="#556677" text-anchor="middle">цель, baseline, гипотеза, guard, откат</text>
+<rect x="1900" y="230" width="380" height="90" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+<text x="2090" y="268" font-size="20" font-weight="700" fill="#2e7d32" text-anchor="middle">Do</text>
+<text x="2090" y="296" font-size="13" fill="#556677" text-anchor="middle">один фактор, согласованное окно</text>
+<rect x="1900" y="530" width="380" height="90" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+<text x="2090" y="568" font-size="20" font-weight="700" fill="#2e7d32" text-anchor="middle">Check</text>
+<text x="2090" y="596" font-size="13" fill="#556677" text-anchor="middle">до/после, guard, аномалии</text>
+<rect x="1420" y="530" width="380" height="90" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+<text x="1610" y="568" font-size="20" font-weight="700" fill="#2e7d32" text-anchor="middle">Act</text>
+<text x="1610" y="596" font-size="13" fill="#556677" text-anchor="middle">закрепить / откатить, документировать</text>
+<path d="M 1800 275 L 1890 275" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#a2)"/>
+<path d="M 2090 320 L 2090 520" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#a2)"/>
+<path d="M 1900 575 L 1810 575" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#a2)"/>
+<path d="M 1610 530 L 1610 330" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#a2)"/>
+<text x="1930" y="680" font-size="14" fill="#556677" text-anchor="middle">Наблюдение после изменения: 24–72 часа</text>
+<text x="1930" y="716" font-size="14" fill="#556677" text-anchor="middle">Откат — за один шаг, конфигурация «до» сохранена</text>
+<rect x="1400" y="750" width="1060" height="120" rx="12" fill="#ffffff" stroke="#e0e6ee" stroke-width="1.5"/>
+<text x="1440" y="795" font-size="15" font-weight="700" fill="#33475b" text-anchor="start">Правило защиты:</text>
+<text x="1440" y="830" font-size="14" fill="#556677" text-anchor="start">менять один фактор; цель и guard — заранее; результат — с числами</text>
+<rect x="80" y="960" width="2440" height="440" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="120" y="1015" font-size="18" font-weight="700" fill="#33475b" text-anchor="start">Инструменты данных</text>
+<rect x="120" y="1060" width="380" height="120" rx="10" fill="#ffffff" stroke="#1f4e79" stroke-width="2"/>
+<text x="310" y="1105" font-size="16" font-weight="700" fill="#1f4e79" text-anchor="middle">PM-счётчики</text>
+<text x="310" y="1140" font-size="13" fill="#556677" text-anchor="middle">TS 32.425 / 32.450 / 28.552</text>
+<rect x="520" y="1060" width="380" height="120" rx="10" fill="#ffffff" stroke="#00796b" stroke-width="2"/>
+<text x="710" y="1105" font-size="16" font-weight="700" fill="#00796b" text-anchor="middle">Трейсы</text>
+<text x="710" y="1140" font-size="13" fill="#556677" text-anchor="middle">TS 32.422: по IMSI/GUTI</text>
+<rect x="920" y="1060" width="380" height="120" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+<text x="1110" y="1105" font-size="16" font-weight="700" fill="#2e7d32" text-anchor="middle">MDT</text>
+<text x="1110" y="1140" font-size="13" fill="#556677" text-anchor="middle">TS 37.320: измерения UE</text>
+<rect x="1320" y="1060" width="380" height="120" rx="10" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
+<text x="1510" y="1105" font-size="16" font-weight="700" fill="#e65100" text-anchor="middle">RCAF</text>
+<text x="1510" y="1140" font-size="13" fill="#556677" text-anchor="middle">TS 29.217: перегрузка RAN → PCRF</text>
+<rect x="1720" y="1060" width="380" height="120" rx="10" fill="#ffffff" stroke="#6a1b9a" stroke-width="2"/>
+<text x="1910" y="1105" font-size="16" font-weight="700" fill="#6a1b9a" text-anchor="middle">SON</text>
+<text x="1910" y="1140" font-size="13" fill="#556677" text-anchor="middle">TS 32.522: ANR, MRO, MLB, CCO</text>
+<rect x="2120" y="1060" width="380" height="120" rx="10" fill="#ffffff" stroke="#546e7a" stroke-width="2"/>
+<text x="2310" y="1105" font-size="16" font-weight="700" fill="#546e7a" text-anchor="middle">Драйв-тесты и краудсорсинг</text>
+<text x="2310" y="1140" font-size="13" fill="#556677" text-anchor="middle">точечная валидация QoE</text>
+<text x="1300" y="1250" font-size="14" fill="#556677" text-anchor="middle">Схема анализа: симптом → drill-down по сотам/узлам → трейс → гипотеза → изменение → контроль</text>
+<text x="1300" y="1330" font-size="15" font-weight="700" fill="#33475b" text-anchor="middle">Цель оптимизации — устойчивое улучшение целевого KPI при неухудшении guard-метрик</text>
+</svg>

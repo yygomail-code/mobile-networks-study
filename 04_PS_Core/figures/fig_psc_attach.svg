@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" width="1500" height="820" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs><rect x="0" y="0" width="1500" height="820" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">4G Attach: путь сигнализации и данные</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">MME, HSS, SGW, PGW: регистрация, сессия, default bearer</text>
+<rect x="68" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="130" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<path d="M 130 158 L 130 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="308" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="370" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">eNB</text>
+<path d="M 370 158 L 370 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="548" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="610" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<path d="M 610 158 L 610 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="788" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="850" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">HSS</text>
+<path d="M 850 158 L 850 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="1028" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1090" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">SGW</text>
+<path d="M 1090 158 L 1090 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="1268" y="110" width="124" height="48" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1330" y="141" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">PGW</text>
+<path d="M 1330 158 L 1330 750" stroke="#c9d4e0" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M 130 205 L 610 205" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<text x="370" y="193" font-size="13" fill="#1f4e79" font-weight="700" text-anchor="middle">Attach Request (IMSI, возможности)</text>
+<path d="M 610 275 L 850 275" fill="none" stroke="#00796b" stroke-width="2.4" marker-end="url(#mt)" stroke-linecap="round"/>
+<text x="730" y="263" font-size="13" fill="#00796b" font-weight="700" text-anchor="middle">S6a: аутентификация + подписка (ULR/ULA)</text>
+<path d="M 610 345 L 1090 345" fill="none" stroke="#00796b" stroke-width="2.4" marker-end="url(#mt)" stroke-linecap="round"/>
+<text x="850" y="333" font-size="13" fill="#00796b" font-weight="700" text-anchor="middle">S11: Create Session Request</text>
+<path d="M 1090 415 L 1330 415" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<text x="1210" y="403" font-size="13" fill="#2e7d32" font-weight="700" text-anchor="middle">S5/S8: Create Session (GTPv2-C)</text>
+<path d="M 1330 485 L 610 485" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<text x="970" y="473" font-size="13" fill="#2e7d32" font-weight="700" text-anchor="middle">Create Session Response (IP-адрес, TEID)</text>
+<path d="M 610 555 L 370 555" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<text x="490" y="543" font-size="13" fill="#1f4e79" font-weight="700" text-anchor="middle">S1AP: Initial Context Setup (E-RAB)</text>
+<path d="M 370 625 L 130 625" fill="none" stroke="#1f4e79" stroke-width="2.4" marker-end="url(#mb)" stroke-linecap="round"/>
+<text x="250" y="613" font-size="13" fill="#1f4e79" font-weight="700" text-anchor="middle">RRC: Attach Accept + default bearer</text>
+<path d="M 130 695 L 1330 695" fill="none" stroke="#546e7a" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="730" y="683" font-size="13" fill="#546e7a" font-weight="700" text-anchor="middle">данные: UE ↔ eNB ↔ SGW ↔ PGW (GTP-U)</text>
+</svg>

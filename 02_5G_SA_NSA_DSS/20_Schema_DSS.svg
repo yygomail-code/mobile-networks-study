@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1400" width="2400" height="1400" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker></defs>
+<rect x="0" y="0" width="2400" height="1400" fill="#ffffff"/>
+<text x="1200" y="44" font-size="30" font-weight="700" fill="#16212b" text-anchor="middle">DSS: LTE и NR делят один спектр</text>
+<text x="1200" y="78" font-size="15" fill="#556677" text-anchor="middle">Динамическое разделение: NR получает только те ресурсы, которые не занял LTE</text>
+<rect x="100" y="180" width="2200" height="60" rx="10" fill="#eef2f7" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1200" y="217" font-size="17" font-weight="700" fill="#33475b" text-anchor="middle">Одна несущая (например, 1800 МГц, 20 МГц): LTE + NR</text>
+<rect x="100" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="114" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="144" y="460" width="90" height="100" rx="6" fill="#f5f5f5" stroke="#d7d7d7" stroke-width="1.5"/>
+<rect x="254" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="268" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="298" y="460" width="90" height="100" rx="6" fill="#f5f5f5" stroke="#d7d7d7" stroke-width="1.5"/>
+<rect x="298" y="460" width="90" height="100" rx="6" fill="#e1d5f5" stroke="#9575cd" stroke-width="1.5"/>
+<text x="343" y="518" font-size="13" fill="#5e35b1" text-anchor="middle">SSB</text>
+<rect x="408" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="422" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="452" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="562" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="576" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="606" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="716" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="730" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="760" y="460" width="90" height="100" rx="6" fill="#f5f5f5" stroke="#d7d7d7" stroke-width="1.5"/>
+<rect x="870" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="884" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="914" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="1024" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1038" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1068" y="460" width="90" height="100" rx="6" fill="#f5f5f5" stroke="#d7d7d7" stroke-width="1.5"/>
+<rect x="1178" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1192" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1222" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="1332" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1346" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1376" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="1486" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1500" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1530" y="460" width="90" height="100" rx="6" fill="#f5f5f5" stroke="#d7d7d7" stroke-width="1.5"/>
+<rect x="1640" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1654" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1684" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="1794" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1808" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1838" y="460" width="90" height="100" rx="6" fill="#f5f5f5" stroke="#d7d7d7" stroke-width="1.5"/>
+<rect x="1948" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="1962" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="1992" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<rect x="2102" y="300" width="150" height="100" rx="6" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<rect x="2116" y="300" width="6" height="100" fill="#c62828"/>
+<rect x="2146" y="460" width="90" height="100" rx="6" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<text x="88" y="358" font-size="18" font-weight="700" fill="#1f4e79" text-anchor="end">LTE</text>
+<text x="88" y="518" font-size="18" font-weight="700" fill="#2e7d32" text-anchor="end">NR</text>
+<path d="M 430 610 L 430 415" fill="none" stroke="#546e7a" stroke-width="2.2" marker-end="url(#a1)"/>
+<text x="450" y="612" font-size="14" fill="#546e7a" text-anchor="start">CRS LTE: NR делает rate matching вокруг опорных сигналов</text>
+<path d="M 1090 610 L 1090 575" fill="none" stroke="#546e7a" stroke-width="2.2" marker-end="url(#a1)"/>
+<text x="1110" y="612" font-size="14" fill="#546e7a" text-anchor="start">SSB NR передаётся в MBSFN-субкадрах LTE</text>
+<text x="450" y="662" font-size="14" fill="#546e7a" text-anchor="start">Планировщик отдаёт NR только свободные ресурсы — динамически, по слотам</text>
+<rect x="100" y="700" width="2200" height="60" rx="10" fill="#ffffff" stroke="#e0e6ee" stroke-width="1.5"/>
+<rect x="160" y="716" width="30" height="28" rx="5" fill="#dbe9f7" stroke="#9fb8d4" stroke-width="1.5"/>
+<text x="200" y="737" font-size="14" fill="#556677" text-anchor="start">LTE данные</text>
+<rect x="350" y="716" width="30" height="28" rx="5" fill="#c62828" stroke="#c62828" stroke-width="1.5"/>
+<text x="390" y="737" font-size="14" fill="#556677" text-anchor="start">LTE CRS</text>
+<rect x="513" y="716" width="30" height="28" rx="5" fill="#c8e6c9" stroke="#66bb6a" stroke-width="1.5"/>
+<text x="553" y="737" font-size="14" fill="#556677" text-anchor="start">NR данные</text>
+<rect x="694" y="716" width="30" height="28" rx="5" fill="#e1d5f5" stroke="#9575cd" stroke-width="1.5"/>
+<text x="734" y="737" font-size="14" fill="#556677" text-anchor="start">NR SSB</text>
+<rect x="100" y="790" width="2200" height="520" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="140" y="845" font-size="18" font-weight="700" fill="#33475b" text-anchor="start">Как работает DSS и что важно</text>
+<text x="140" y="905" font-size="15" fill="#556677" text-anchor="start">• Нумерология NR выравнивается с LTE: SCS 15 кГц, совместимая сетка ресурсных блоков</text>
+<text x="140" y="953" font-size="15" fill="#556677" text-anchor="start">• NR обходит LTE CRS (rate matching); SSB NR — в MBSFN-субкадрах LTE</text>
+<text x="140" y="1001" font-size="15" fill="#556677" text-anchor="start">• Ресурсы делятся по слотам динамически; нужна быстрая координация планировщиков</text>
+<text x="140" y="1049" font-size="15" fill="#556677" text-anchor="start">• Плюсы: быстрое покрытие 5G без нового спектра, плавная миграция, один слой оборудования</text>
+<text x="140" y="1097" font-size="15" fill="#556677" text-anchor="start">• Минусы: потеря ёмкости, ниже пиковые скорости NR, часть функций NR недоступна</text>
+<text x="140" y="1145" font-size="15" fill="#556677" text-anchor="start">• KPI: следить за просадкой LTE, PRB utilization и долей ресурсов NR</text>
+</svg>

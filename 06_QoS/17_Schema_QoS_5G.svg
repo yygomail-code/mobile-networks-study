@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1400" width="2200" height="1400" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2200" height="1400" fill="#ffffff"/>
+<text x="1100.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">QoS в 5G: PDU-сессия, QoS flows и управление</text>
+<text x="1100.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Класс 5QI, идентификатор QFI, правила QoS и SDAP; политики — PCF, исполнение — UPF.</text>
+<rect x="60" y="1030" width="2080" height="330" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="1085" font-size="18" fill="#33475b" font-weight="700" text-anchor="start">5G QoS: ключевые понятия</text>
+<text x="100" y="1140" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• PDU-сессия → QoS flows (QFI); класс — 5QI, приоритет — ARP</text>
+<text x="100" y="1180" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• QoS rules в UE (QRI, фильтры); SDAP маппит QoS flow → DRB</text>
+<text x="100" y="1220" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• GBR / non-GBR / Delay-Critical GBR; session-AMBR; MDBV, averaging window</text>
+<text x="100" y="1260" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Reflective QoS (RQI); QNC + Alternative QoS Profiles; 5QI↔QCI при переходах</text>
+<text x="100" y="1305" font-size="14" fill="#6a1b9a" font-weight="700" text-anchor="start">Примеры 5QI: 1 — голос • 5 — IMS • 9 — default • 79/80 — low latency eMBB • 82–85 — URLLC</text>
+<path d="M 200 680 L 600 680" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 600 680 L 1050 680" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1050 680 L 1600 680" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 600 680 L 750 250" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 750 250 L 900 450" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 900 450 L 1050 680" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 900 450 L 1150 250" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1150 250 L 1550 250" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 900 450 L 350 250" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 350 250 L 750 250" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 900 450 L 1900 250" fill="none" stroke="#6a1b9a" stroke-width="2.6" stroke-dasharray="7 6" marker-end="url(#arr-chg)" stroke-linecap="round"/>
+<rect x="125.0" y="650.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="200" y="676" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<text x="200" y="696" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">QoS rules, SDAP</text>
+<rect x="525.0" y="650.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="600" y="676" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">gNB</text>
+<text x="600" y="696" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">DRB, планировщик</text>
+<rect x="975.0" y="650.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1050" y="676" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UPF</text>
+<text x="1050" y="696" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">enforcement (N4)</text>
+<rect x="1515.0" y="650.0" width="170" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1600" y="676" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">DN / Internet</text>
+<text x="1600" y="696" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">внешняя сеть</text>
+<rect x="275.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="350" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">UDM</text>
+<text x="350" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">подписка</text>
+<rect x="675.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="750" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">AMF</text>
+<text x="750" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">управление доступом</text>
+<rect x="825.0" y="420.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="900" y="446" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">SMF</text>
+<text x="900" y="466" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">управление сессией</text>
+<rect x="1075.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1150" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">PCF</text>
+<text x="1150" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">PCC-правила</text>
+<rect x="1475.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1550" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">AF (P-CSCF)</text>
+<text x="1550" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">запрос медиа (VoNR)</text>
+<rect x="1825.0" y="220.0" width="150" height="60" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1900" y="246" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">CHF</text>
+<text x="1900" y="266" font-size="11.5" fill="#5a6b7b" font-weight="normal" text-anchor="middle">тарификация</text>
+<text x="368.0" y="696.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu: DRB + SDAP; QoS rules</text>
+<text x="789.0" y="696.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N3: GTP-U (QFI)</text>
+<text x="1281.0" y="696.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N6</text>
+<text x="678.1072029031325" y="504.66995450109266" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N2 (NGAP): PDU Session Resource Setup (5QI, QFI)</text>
+<text x="800.2" y="343.6" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N11: управление сессией</text>
+<text x="949.5982304505822" y="555.3402844887507" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N4 (PFCP): QoS flow, session-AMBR</text>
+<text x="1014.9951207608708" y="378.4939009510885" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N7: PCC (5QI, ARP, AMBR)</text>
+<text x="1318.0" y="266.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N5: медиа (VoNR)</text>
+<text x="663.5321109906128" y="381.03669477581496" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N10: подписка</text>
+<text x="518.0" y="266.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N8: подписка</text>
+<text x="1323.137858162211" y="381.6892908110547" font-size="12.5" fill="#6a1b9a" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">N40: тарификация</text>
+</svg>

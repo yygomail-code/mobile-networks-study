@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1600" height="1000" fill="#ffffff"/>
+<text x="800.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">7 вопросов первого задания</text>
+<text x="800.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Ответы и навигация по материалам проекта</text>
+<rect x="90" y="190" width="660" height="210" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="160" y="290" font-size="56" fill="#1f4e79" font-weight="700" text-anchor="middle">1</text>
+<text x="220" y="275" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">CSFB, eSRVCC, Handover</text>
+<text x="220" y="320" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">SGs, Sv, X2/S1, Xn/N2, N26</text>
+<rect x="790" y="190" width="660" height="210" rx="10" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="860" y="290" font-size="56" fill="#2e7d32" font-weight="700" text-anchor="middle">2</text>
+<text x="920" y="275" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">5G: SA, NSA, DSS</text>
+<text x="920" y="320" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">EN-DC, 5GC, общий спектр</text>
+<rect x="90" y="430" width="660" height="210" rx="10" fill="#f6eefb" stroke="#dcc8ea" stroke-width="2"/>
+<text x="160" y="530" font-size="56" fill="#6a1b9a" font-weight="700" text-anchor="middle">3</text>
+<text x="220" y="515" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">Diameter CCA/CCR</text>
+<text x="220" y="560" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">квоты, правила, AVP</text>
+<rect x="790" y="430" width="660" height="210" rx="10" fill="#fce4ec" stroke="#f0c4d4" stroke-width="2"/>
+<text x="860" y="530" font-size="56" fill="#ad1457" font-weight="700" text-anchor="middle">4</text>
+<text x="920" y="515" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">IMS и PS Core</text>
+<text x="920" y="560" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">P/I/S-CSCF, QCI1, Rx/Gx</text>
+<rect x="90" y="670" width="660" height="210" rx="10" fill="#efebe9" stroke="#d7c8c2" stroke-width="2"/>
+<text x="160" y="770" font-size="56" fill="#4e342e" font-weight="700" text-anchor="middle">5</text>
+<text x="220" y="755" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">Фильтрация трафика</text>
+<text x="220" y="800" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">TFT/SDF, PDR/FAR, DPI</text>
+<rect x="790" y="670" width="660" height="210" rx="10" fill="#e8f5f1" stroke="#c2ded6" stroke-width="2"/>
+<text x="860" y="770" font-size="56" fill="#00695c" font-weight="700" text-anchor="middle">6</text>
+<text x="920" y="755" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">QoS</text>
+<text x="920" y="800" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">QCI/5QI, ARP, AMBR</text>
+<rect x="90" y="910" width="660" height="210" rx="10" fill="#ffebee" stroke="#e8c3c3" stroke-width="2"/>
+<text x="160" y="1010" font-size="56" fill="#b71c1c" font-weight="700" text-anchor="middle">7</text>
+<text x="220" y="995" font-size="25" fill="#16212b" font-weight="700" text-anchor="start">Оптимизация RAN (Core)</text>
+<text x="220" y="1040" font-size="17" fill="#556677" font-weight="normal" text-anchor="start">KPI, RFSP, кейсы</text>
+<text x="800" y="950" font-size="17" fill="#556677" font-weight="normal" text-anchor="middle">Краткие ответы — в этом документе; подробно — в папках тем (конспекты, схемы, видео)</text>
+</svg>

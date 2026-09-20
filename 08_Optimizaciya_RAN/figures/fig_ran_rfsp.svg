@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" width="1500" height="760" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+</defs><rect x="0" y="0" width="1500" height="760" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">RFSP: управление частотами и RAT со стороны Core</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">SPID из подписки → RFSP от MME/AMF → RRM-политика eNB/gNB</text>
+<rect x="120" y="260" width="240" height="90" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="240" y="300" font-size="18" fill="#1f4e79" font-weight="700" text-anchor="middle">HSS / UDM</text>
+<text x="240" y="330" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">SPID в подписке</text>
+<rect x="560" y="260" width="240" height="90" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="680" y="300" font-size="18" fill="#b26a00" font-weight="700" text-anchor="middle">MME / AMF</text>
+<text x="680" y="330" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">RFSP (1–256)</text>
+<rect x="1000" y="260" width="280" height="90" rx="10" fill="#eaf7ee" stroke="#c3e8cf" stroke-width="2"/>
+<text x="1140" y="300" font-size="18" fill="#2e7d32" font-weight="700" text-anchor="middle">eNB / gNB</text>
+<text x="1140" y="330" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">RRM-политика</text>
+<path d="M 360 305 L 560 305" fill="none" stroke="#33475b" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="460" y="293" font-size="13" fill="#33475b" font-weight="700" text-anchor="middle">подписка</text>
+<path d="M 800 305 L 1000 305" fill="none" stroke="#33475b" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<text x="900" y="293" font-size="13" fill="#33475b" font-weight="700" text-anchor="middle">S1AP / NGAP: RFSP</text>
+<rect x="950" y="500" width="380" height="120" rx="10" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="1140" y="540" font-size="16" fill="#33475b" font-weight="700" text-anchor="middle">Выбор слоя</text>
+<text x="1140" y="570" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">camping (idle) и HO (connected)</text>
+<text x="1140" y="597" font-size="13" fill="#556677" font-weight="normal" text-anchor="middle">частоты / RAT / 5G↔LTE</text>
+<path d="M 1140 350 L 1140 500" fill="none" stroke="#2e7d32" stroke-width="2.4" marker-end="url(#mg)" stroke-linecap="round"/>
+<text x="750" y="660" font-size="14" fill="#556677" font-weight="normal" text-anchor="middle">Примеры политик: ёмкостный слой 2600 МГц · покрытие 800/1800 · steering 5G↔LTE</text>
+<text x="750" y="700" font-size="14" fill="#b71c1c" font-weight="700" text-anchor="middle">Ошибка: RFSP не согласован с RRM-политикой RAN → абоненты «висят» не на том слое</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1700" width="2800" height="1700" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="arr-radio" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="arr-user" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="arr-pol" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="arr-chg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="arr-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#546e7a"/></marker>
+</defs>
+<rect x="0" y="0" width="2800" height="1700" fill="#ffffff"/>
+<text x="1400.0" y="44" font-size="30" fill="#16212b" font-weight="700" text-anchor="middle">VoLTE: сквозной путь установления</text>
+<text x="1400.0" y="78" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Слева — транспорт LTE (bearer QCI 1/5), справа — IMS (P-CSCF, S-CSCF, AS); в центре — политики QoS.</text>
+<rect x="60" y="130" width="2680" height="1150" rx="14" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="1400" y="195" font-size="20" fill="#2e7d32" font-weight="700" text-anchor="middle">VoLTE end-to-end: от UE до IMS</text>
+<rect x="60" y="1330" width="2680" height="320" rx="14" fill="#f7f9fc" stroke="#c9d4e0" stroke-width="2"/>
+<text x="100" y="1385" font-size="18" fill="#33475b" font-weight="700" text-anchor="start">Путь установления вызова</text>
+<text x="100" y="1435" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• INVITE (SDP) → P-CSCF → Rx/N5 → PCRF/PCF → Gx/N7 → PGW/UPF: bearer QCI 1 (GBR)</text>
+<text x="100" y="1475" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• 183 Session Progress → PRACK/UPDATE → 180 Ringing → 200 OK → ACK → медиа RTP/SRTP</text>
+<text x="100" y="1515" font-size="14" fill="#556677" font-weight="normal" text-anchor="start">• Сигнализация — QCI 5 (APN ims); голос — QCI 1; кодек EVS/AMR-WB; MOS ≥ 3,5; setup &lt; 2 с</text>
+<text x="100" y="1555" font-size="14" fill="#b71c1c" font-weight="700" text-anchor="start">• Ошибки: нет правила Rx/Gx, TFT mismatch, jitter/loss, обрыв при переходе (SRVCC)</text>
+<path d="M 170 760 L 430 760" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 430 760 L 430 480" fill="none" stroke="#1f4e79" stroke-width="2.6" marker-end="url(#arr-radio)" stroke-linecap="round"/>
+<path d="M 430 760 L 700 760" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 700 760 L 960 760" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 430 480 L 700 760" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 960 760 L 960 480" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1240 760 L 960 480" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 960 760 L 1240 760" fill="none" stroke="#2e7d32" stroke-width="2.6" marker-end="url(#arr-user)" stroke-linecap="round"/>
+<path d="M 1240 760 L 1520 760" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<path d="M 1520 760 L 1800 760" fill="none" stroke="#e65100" stroke-width="2.6" marker-end="url(#arr-pol)" stroke-linecap="round"/>
+<path d="M 1520 760 L 1240 480" fill="none" stroke="#00796b" stroke-width="2.6" marker-end="url(#arr-sub)" stroke-linecap="round"/>
+<rect x="105.0" y="734.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="170" y="765" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">UE</text>
+<rect x="355.0" y="734.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="430" y="754" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">eNB</text>
+<text x="430" y="776" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">QCI 1 + QCI 5</text>
+<rect x="635.0" y="734.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="700" y="765" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">SGW</text>
+<rect x="895.0" y="734.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="960" y="765" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">PGW</text>
+<rect x="1165.0" y="734.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1240" y="765" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">P-CSCF</text>
+<rect x="1445.0" y="734.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1520" y="765" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">S-CSCF</text>
+<rect x="1710.0" y="734.0" width="180" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1800" y="754" font-size="14.5" fill="#16212b" font-weight="700" text-anchor="middle">MMTel AS</text>
+<text x="1800" y="776" font-size="11" fill="#5a6b7b" font-weight="normal" text-anchor="middle">услуги голоса</text>
+<rect x="365.0" y="454.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="430" y="485" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">MME</text>
+<rect x="885.0" y="454.0" width="150" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="960" y="485" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">PCRF / PCF</text>
+<rect x="1175.0" y="454.0" width="130" height="52" rx="10" fill="#ffffff" stroke="#33475b" stroke-width="2.2"/>
+<text x="1240" y="485" font-size="15" fill="#16212b" font-weight="700" text-anchor="middle">HSS</text>
+<text x="279.2" y="776.0" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Uu</text>
+<text x="446.0" y="642.4" font-size="12.5" fill="#1f4e79" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-MME</text>
+<text x="543.4" y="776.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S1-U</text>
+<text x="809.2" y="776.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S5/S8</text>
+<text x="531.882491273269" y="608.7061691293477" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">S11</text>
+<text x="976.0" y="642.4" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Gx</text>
+<text x="1133.713708498985" y="631.0862915010152" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Rx / N5</text>
+<text x="1077.6" y="776.0" font-size="12.5" fill="#2e7d32" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">SGi</text>
+<text x="1357.6" y="776.0" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Mw</text>
+<text x="1637.6" y="776.0" font-size="12.5" fill="#e65100" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">ISC</text>
+<text x="1413.713708498985" y="631.0862915010152" font-size="12.5" fill="#00796b" font-weight="700" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3.5px;stroke-linejoin:round">Cx</text>
+</svg>

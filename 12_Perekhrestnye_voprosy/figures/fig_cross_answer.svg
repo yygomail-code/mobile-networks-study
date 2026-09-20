@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 760" width="1500" height="760" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+<marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#33475b"/></marker>
+<marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f4e79"/></marker>
+<marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/></marker>
+<marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/></marker>
+<marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6a1b9a"/></marker>
+<marker id="mt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#00796b"/></marker>
+<marker id="mr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/></marker>
+</defs><rect x="0" y="0" width="1500" height="760" fill="#ffffff"/>
+<text x="750.0" y="44" font-size="26" font-weight="700" fill="#16212b" text-anchor="middle">Структура ответа на перекрёстный вопрос</text>
+<text x="750.0" y="78" font-size="14" fill="#556677" text-anchor="middle">Семь шагов: от контекста до вывода с числами</text>
+<rect x="80" y="150" width="330" height="200" rx="10" fill="#eef4fb" stroke="#c3d4e8" stroke-width="2"/>
+<text x="245" y="235" font-size="22" fill="#1f4e79" font-weight="700" text-anchor="middle">1. Контекст</text>
+<text x="245" y="280" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">что, где, когда</text>
+<path d="M 410 250 L 440 250" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="440" y="150" width="330" height="200" rx="10" fill="#f1f8f2" stroke="#c8e6c9" stroke-width="2"/>
+<text x="605" y="235" font-size="22" fill="#2e7d32" font-weight="700" text-anchor="middle">2. Данные</text>
+<text x="605" y="280" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">интерфейс/поле/значение</text>
+<path d="M 770 250 L 800 250" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="800" y="150" width="330" height="200" rx="10" fill="#fdf4e8" stroke="#e8d4b8" stroke-width="2"/>
+<text x="965" y="235" font-size="22" fill="#b26a00" font-weight="700" text-anchor="middle">3. Гипотеза</text>
+<text x="965" y="280" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">1–2, объясняющие данные</text>
+<path d="M 1130 250 L 1160 250" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="1160" y="150" width="330" height="200" rx="10" fill="#f6eefb" stroke="#dcc8ea" stroke-width="2"/>
+<text x="1325" y="235" font-size="22" fill="#6a1b9a" font-weight="700" text-anchor="middle">4. Действие</text>
+<text x="1325" y="280" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">один фактор</text>
+<path d="M 1325 350 L 245 410" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="80" y="410" width="330" height="200" rx="10" fill="#fce4ec" stroke="#f0c4d4" stroke-width="2"/>
+<text x="245" y="495" font-size="22" fill="#ad1457" font-weight="700" text-anchor="middle">5. Проверка</text>
+<text x="245" y="540" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">целевой + guard, окно</text>
+<path d="M 410 510 L 440 510" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="440" y="410" width="330" height="200" rx="10" fill="#efebe9" stroke="#d7c8c2" stroke-width="2"/>
+<text x="605" y="495" font-size="22" fill="#4e342e" font-weight="700" text-anchor="middle">6. Риск/откат</text>
+<text x="605" y="540" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">что и как откатить</text>
+<path d="M 770 510 L 800 510" fill="none" stroke="#546e7a" stroke-width="2.4" marker-end="url(#ma)" stroke-linecap="round"/>
+<rect x="800" y="410" width="330" height="200" rx="10" fill="#e8f5f1" stroke="#c2ded6" stroke-width="2"/>
+<text x="965" y="495" font-size="22" fill="#00695c" font-weight="700" text-anchor="middle">7. Вывод</text>
+<text x="965" y="540" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">что доказано</text>
+<text x="750" y="700" font-size="15" fill="#556677" font-weight="normal" text-anchor="middle">Правило: числа и интерфейсы, а не общие слова; не выдумывать; границы зон — с данными</text>
+</svg>
