@@ -3,5 +3,6 @@ desktop.ini
 .DS_Store
 *.tmp
 *.mp4
+!03_Diameter/video/*.mp4
 github-token.txt
 gh-token.txt
